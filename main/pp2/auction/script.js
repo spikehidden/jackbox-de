@@ -12580,7 +12580,7 @@ class ni {
                 TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                 TV_SENTRY_RATE: "0.2",
                 TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                 BASE_URL: "https://bundles.jackbox.tv/main/pp2-auction/",
                 MODE: "production",
                 DEV: !1,
@@ -16807,8 +16807,8 @@ const cc = Et.View.extend({
         },
         onRoomWasDestroyed() {
             Zt.remove("roomCode"), Zt.remove("reconnect"), kt.show("error", {
-                titleText: "Disconnected",
-                text: "Thanks for playing!",
+                titleText: "Verbindung getrennt",
+                text: "Danke für's spielen!",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16816,8 +16816,8 @@ const cc = Et.View.extend({
         },
         onDisconnected() {
             kt.show("error", {
-                titleText: "Disconnected",
-                text: "You have been disconnected.",
+                titleText: "Verbindung getrennt",
+                text: "Deine Verbindung wurde getrennt.",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16886,28 +16886,28 @@ const cc = Et.View.extend({
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Lehn dich zurück und entspanne!",
+                vip_waiting: "Warte auf die anderen Spieler",
+                vip_canStart: "Drücke diesen Knopf, wenn alle bereit sind",
+                vip_cancel: "Drücke diesen Knopf, um den Spielstart abzubrechen",
+                vip_postgame: "Was möchtet ihr jetzt machen?",
+                vip_episodes_menu: "Episoden Menü",
+                vip_episodes_unload: "Episode deaktivieren",
+                vip_episodes_report: "Episode melden",
+                vip_episodes_warning: "Warnung: Nutzergenerierte Inhalte werden nicht geprüft",
+                vip_episodes_load: "Lade Episode mit ID:",
+                vip_episodes_select: "Oder wähle eine Episode:",
+                vip_episodes_back: "Zurück",
+                vip_episodes_submit: "senden",
+                vip_episodes_view_author: "Autor anzeigen",
+                button_start: "Alle Bereit",
+                button_cancel: "Abbrechen",
+                button_changename: "Name ändern",
+                button_sameplayers: "Gleiche Spieler",
+                button_newplayers: "Andere Spieler",
+                prompt_entername: "Gib deinen Namen ein",
+                prompt_choosecharacter: "Wähle deinen Charakter",
+                button_censorOptions: "Zensur Einstellungen",
                 censor_prompt: ""
             }
         }
@@ -17346,8 +17346,8 @@ const cc = Et.View.extend({
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -21121,8 +21121,8 @@ const jx = Et.View.extend({
             <div class="container">\r
                 <br /><span id="auction-lobby-text" class="big-text"></span><br />\r
                 <form class="pure-form">                    \r
-                    <button type="button" id="auction-startgame" class="button-auction button-xlarge pure-button pure-input-1">EVERYBODY'S IN</button>\r
-                    <button type="button" id="auction-stopcountdown" class="button-auction button-xlarge pure-button pure-input-1">CANCEL</button>  \r
+                    <button type="button" id="auction-startgame" class="button-auction button-xlarge pure-button pure-input-1">ALLE BEREIT</button>\r
+                    <button type="button" id="auction-stopcountdown" class="button-auction button-xlarge pure-button pure-input-1">ABBRECHEN</button>  \r
                 </form>\r
             </div>\r
         </div>\r
@@ -21134,26 +21134,26 @@ const jx = Et.View.extend({
         </div>\r
         \r
         <div id="state-draw" class="pt-page-off pushed-down-page auction-page">\r
-            <span id="title" class="big-text">please draw:</span><br />\r
+            <span id="title" class="big-text">Bitte zeichne:</span><br />\r
 \r
             <canvas id="auction-sketchpad" class="sketchpad" width='240' height='300' style='background-color:white;'>\r
                 Sorry, your browser is not supported.\r
             </canvas>\r
             \r
             <form class="pure-form container">\r
-                <button type="submit" id="auction-submitdrawing" class="submit-drawing button-auction button-large pure-button pure-input-1" style="margin-top: 0px;"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;send</button>\r
+                <button type="submit" id="auction-submitdrawing" class="submit-drawing button-auction button-large pure-button pure-input-1" style="margin-top: 0px;"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;senden</button>\r
                 <div id="auction-submitdrawing-loading" style="display:none;" class="button-auction-loading"></div>\r
             </form>\r
         </div>\r
         \r
         <div id="state-done-drawing" class="pt-page-off pushed-down-page auction-page">\r
-            <br/><span class="big-text">Thanks for the drawings!</span><br/>\r
+            <br/><span class="big-text">Danke für die Zeichnungen!</span><br/>\r
         </div>\r
         \r
         <div id="state-auction" class="pt-page-off auction-page">\r
             <div id="available-cash"><h1 id="auction-money">$XXXXX</h1></div>\r
             <div id="auction-info"><div class="auction-centered-content" id="auction-centered-info"></div></div>\r
-            <div id="auction-skip-content"><button type="button" id="auction-skip-button" class="button-auction button-large pure-button pure-input-1">Skip</button></div>\r
+            <div id="auction-skip-content"><button type="button" id="auction-skip-button" class="button-auction button-large pure-button pure-input-1">Überspringen</button></div>\r
             <div id="auction-bid-buttons"></div>\r
             <div id="auction-screw-content"></div>\r
             <div id="auction-cashgrab-content"></div>\r
@@ -21165,8 +21165,8 @@ const jx = Et.View.extend({
             <div class="container">\r
                 <br /><span id="auction-post-game-text" class="big-text"></span><br />\r
                 <form class="pure-form">                    \r
-                    <button type="button" id="auction-sameplayers" class="button-auction  button-xlarge pure-button pure-input-1 auction-endbuttons">SAME PLAYERS</button>\r
-                    <button type="button" id="auction-newplayers" class="button-auction  button-xlarge pure-button pure-input-1 auction-endbuttons">NEW PLAYERS</button>    \r
+                    <button type="button" id="auction-sameplayers" class="button-auction  button-xlarge pure-button pure-input-1 auction-endbuttons">GLEICHE SPIELER</button>\r
+                    <button type="button" id="auction-newplayers" class="button-auction  button-xlarge pure-button pure-input-1 auction-endbuttons">ANDERE SPIELER</button>    \r
                 </form>\r
             </div>\r
             \r
@@ -21232,14 +21232,14 @@ const Xx = cc.extend({
                 return
             }
             const m = t.lobbyState;
-            m === "WaitingForMore" ? _e("#auction-lobby-text").html("waiting for all players to join") : m === "CanStart" ? (_e("#auction-lobby-text").html("press this button when everybody has joined"), _e("#auction-startgame").show()) : m === "Countdown" && (_e("#auction-lobby-text").html("press this button to cancel game start"), _e("#auction-stopcountdown").show()), this.showScreen("#state-lobby")
+            m === "WaitingForMore" ? _e("#auction-lobby-text").html("Warte, bis alle Spieler da sind") : m === "CanStart" ? (_e("#auction-lobby-text").html("Drücke diesen Knopf wenn alle bereit sind"), _e("#auction-startgame").show()) : m === "Countdown" && (_e("#auction-lobby-text").html("Drücke diesen Knopf um den Spielstart abzubrechen"), _e("#auction-stopcountdown").show()), this.showScreen("#state-lobby")
         } else if (i === "Gameplay_Logo") this.showScreen("#state-logo");
         else if (i === "Gameplay_Draw" && n === "Gameplay_Draw") {
             if (!e.title) {
                 this.showScreen("#state-done-drawing");
                 return
             }
-            this.titleThatImDrawing = e.title, _e("#page-auction #state-draw #title").html(`Please Draw : ${this.titleThatImDrawing.text}`), this.showScreen("#state-draw");
+            this.titleThatImDrawing = e.title, _e("#page-auction #state-draw #title").html(`Bitte zeichne: ${this.titleThatImDrawing.text}`), this.showScreen("#state-draw");
             const m = this.$("#auction-sketchpad")[0],
                 _ = m.getContext("2d"),
                 k = _e("#state-draw #title").outerHeight(!0) + _e("#auction-submitdrawing").outerHeight(!0) + 10;
@@ -21248,7 +21248,7 @@ const Xx = cc.extend({
             _e("#auction-money").html(this.formatMoney(e.money));
             let m = "";
             if (e.info && e.message)
-                for (f = 0; f < e.info.length; f++) m += '<div class="auction-info-content text-content">', m += `<p>${e.info[f].title} is worth ${this.formatMoney(e.info[f].value)}</p>`, m += "</div>";
+                for (f = 0; f < e.info.length; f++) m += '<div class="auction-info-content text-content">', m += `<p>${e.info[f].title} ist ${this.formatMoney(e.info[f].value)} wert</p>`, m += "</div>";
             _e("#auction-info").css("display", m.length > 0 ? "block" : "none"), _e("#auction-centered-info").html(m), _e("#auction-skip-content").css("display", t.skip ? "block" : "none"), this.onAuctionMessage(e.message);
             const _ = t.currentBidderId !== this.model.id;
             let k = "";
@@ -21261,15 +21261,15 @@ const Xx = cc.extend({
                 if (t.screwingPlayerId)
                     if (t.screwingPlayerId === this.client.userId)
                         for (f = 0; f < t.playersToScrew.length; f++) R += `<button type="button" data-player="${t.playersToScrew[f].id}" class="pure-input-1 button-large pure-button button-auction auction-screw-player-button">${t.playersToScrew[f].name}</button>`;
-                    else R = "<span class='big-text'><p>Another player is screwing, hold your horses</p></span>";
+                    else R = "<span class='big-text'><p>Halte dich zurück, ein anderer Spieler nagelt bereits</p></span>";
                 else t.bids && (R = `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-screw-button"${V?"":" disabled"}>SCREW</button>`)
             } else R = "";
             _e("#auction-screw-content").html(R);
             let D = "";
             if (t.playerSignalledForBank !== void 0) {
                 let V, X;
-                t.playerSignalledForBank ? (V = !0, X = "BANK CALLED") : e.numLoans >= 3 ? (V = !0, X = "BAD CREDIT") : e.timesOpenedBank >= 3 ? (V = !0, X = "STOP CALLING") : (V = !1, X = "CALL THE BANK"), D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-open-bank-button"${V?" disabled":""}>${X}</button><br>`
-            } else t.loanAmount !== void 0 && t.debtAmount !== void 0 && e.hasTakenOutLoanInCurrentBank !== void 0 && (e.numLoans >= 3 ? D += `<span class="big-text"><p>You've taken out 3 loans already. No more for you!</p></span>` : (D += `<span class="big-text"><p>You will receive : ${this.formatMoney(t.loanAmount)}, and owe ${this.formatMoney(t.debtAmount)}</p></span>`, D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-take-loan-button"${e.hasTakenOutLoanInCurrentBank?" disabled":""}>GET A LOAN</button><br>`));
+                t.playerSignalledForBank ? (V = !0, X = "BANK ANGERUFEN") : e.numLoans >= 3 ? (V = !0, X = "SCHLECHTE BEDINGUNGEN") : e.timesOpenedBank >= 3 ? (V = !0, X = "ANRUF BEENDEN") : (V = !1, X = "DIE BANK ANRUFEN"), D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-open-bank-button"${V?" disabled":""}>${X}</button><br>`
+            } else t.loanAmount !== void 0 && t.debtAmount !== void 0 && e.hasTakenOutLoanInCurrentBank !== void 0 && (e.numLoans >= 3 ? D += `<span class="big-text"><p>Du hast schon drei Kredite! Das reicht!</p></span>` : (D += `<span class="big-text"><p>Du erhältst: ${this.formatMoney(t.loanAmount)}, und schuldest ${this.formatMoney(t.debtAmount)}</p></span>`, D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-take-loan-button"${e.hasTakenOutLoanInCurrentBank?" disabled":""}>KREDIT NEHMEN</button><br>`));
             _e("#auction-bank-content").html(D), this.showScreen("#state-auction")
         } else if (i && i === "PostGame") {
             if (!this.client.isRole("player")) {
@@ -21277,10 +21277,10 @@ const Xx = cc.extend({
                 return
             }
             if (this.hideLobbyButtons(), !e.isAllowedToMakeChoice) {
-                _e("#auction-lobby-text").html("sit back and relax!"), this.showScreen("#state-post-game");
+                _e("#auction-lobby-text").html("Lehne dich zurück und entspanne!"), this.showScreen("#state-post-game");
                 return
             }
-            _e("#auction-post-game-text").html("make your choice"), _e(".auction-endbuttons").show(), this.showScreen("#state-post-game")
+            _e("#auction-post-game-text").html("Treffe deine Wahl"), _e(".auction-endbuttons").show(), this.showScreen("#state-post-game")
         }
     },
     hideLobbyButtons() {
@@ -21300,7 +21300,7 @@ const Xx = cc.extend({
         e ? (_e(t).show(), _e(`${t}-loading`).hide()) : (_e(t).hide(), _e(`${t}-loading`).show())
     },
     submitDrawing() {
-        if (this.currentCanvas.isClean) return alert("You have to draw something!"), !1;
+        if (this.currentCanvas.isClean) return alert("Du musst etwas zeichnen!"), !1;
         this.enableLoadingButton("#drawful-submitdrawing", !1);
         const t = {
             id: this.titleThatImDrawing.id,

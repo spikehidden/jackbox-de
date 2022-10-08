@@ -11817,7 +11817,7 @@ ${n}`,
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                     BASE_URL: "https://bundles.jackbox.tv/main/pp8-apply-yourself/",
                     MODE: "production",
                     DEV: !1,
@@ -11879,117 +11879,117 @@ ${n.message}`,
         }
     }
     const e5 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Zur\xFCck",
+            CANCEL: "Abbrechen",
+            CLOSE: "Schlie\xDFen",
+            CREATE: "Erstellen",
+            DELETE: "L\xF6schen",
+            DONE: "Fertig",
+            EDIT: "Bearbeiten",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Nein",
+            PLAY: "Spielen",
+            PUBLISH: "Ver\xF6ffentlichen",
+            REMOVE: "Entfernen",
+            RESET: "Neu starten",
+            SUBMIT: "Abschicken",
+            TRY_AGAIN: "Erneut versuchen",
+            UNDO: "Zurück",
+            YES: "Ja"
         },
         t5 = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "Prompts auf Spielerger\xE4ten verborgen",
+                VISIBILITY_CONTROLLER_ON: "Prompts auf Spielerger\xE4ten angezeigt",
+                VISIBILITY_SCREEN_OFF: "Prompts auf Spielbildschirm verborgen",
+                VISIBILITY_SCREEN_ON: "Prompts auf Spielbildschirm angezeigt"
             }
         },
         n5 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Deine Verbindung wurde getrennt.",
+            DRAWING_NOTHING: "Du musst irgendwas zeichnen!",
+            PLAYER_KICKED: "Du wurdest von einem Moderator vom Spiel ausgeschlossen.",
+            ROOM_DESTROYED: "Danke f\xFCrs Spielen!",
+            ROOM_DISCONNECTED: "Verbindung getrennt",
+            TEXT_NAUGHTY: "Das kannst du leider nicht schreiben. Bitte nimm R\xFCcksicht auf deine Mitspieler.",
+            TEXT_NOTHING: "Du musst etwas eingeben!",
+            TITLE: "Fehler"
         },
-        r5 = "LOADING",
+        r5 = "LADE",
         i5 = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "x | {count} von {maxPlayers} Spielern sind beigetreten | {count} von {maxPlayers} Spielern sind beigetreten",
+            PLAYERS_NEEDED: "x | {count} Spieler zum Starten ben\xF6tigt | {count} Spieler zum Starten ben\xF6tigt",
+            WAITING_FOR_VIP: "Warten, bis {name} das Spiel startet",
+            WAITING_FOR_GAMEPAD: "Warten, bis das Spiel startet",
+            GAME_STARTING: "Das Spiel beginnt",
+            BUTTON_START: "Zum Starten dr\xFCcken",
+            BUTTON_CANCEL: "Zum Abbrechen dr\xFCcken"
         },
         s5 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galerie besuchen",
+            PLAY_AGAIN: "Erneut spielen?",
+            BUTTON_SAME_PLAYERS: "Selbe Spieler",
+            BUTTON_NEW_PLAYERS: "Neue Spieler"
         },
         a5 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UND",
+            OR: "ODER"
         },
         o5 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "\xDCberspringen",
+            BUTTON_NEXT: "Weiter",
+            BUTTON_DONE: "Los geht's!"
         },
         l5 = {
-            NAME: "AUDIENCE"
+            NAME: "PUBLIKUM"
         },
         c5 = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Episode melden",
+            EPISODE_UNLOAD: "Episode deaktivieren",
+            EPISODE_VIEW_AUTHOR: "Autor ansehen",
+            EPISODES_LOAD: "Lade eine Episode \xFCber dessen ID:",
+            EPISODES_MENU: "Episoden-Men\xFC",
+            EPISODES_SELECT: "Oder w\xE4hle eine Episode aus:",
+            EPISODES_WARNING: "Achtung: Von Nutzern erstellte Inhalte werden nicht auf Familientauglichkeit gepr\xFCft",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: 'Benenne als allererstes deine Episode, die alle deine Prompts enthalten wird und dr\xFCcke dann "Erstellen".',
+                LOAD: "Erstellen oder laden?",
+                PUBLISH: "Ver\xF6ffentliche deine Episode",
+                TITLE: "Benenne deine Episode",
+                TOGGLE_VISIBILITY: "Dr\xFCcken, um Prompts zu zeigen / zu verstecken",
+                WRITE: "Schreibe deine Prompts"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bist du sicher, dass du diese Episode l\xF6schen m\xF6chtest?",
+                TOS: "Durch das Teilen von Inhalten stimmst du unseren [tos]Nutzungsbedingungen[/tos] zu",
+                TOS_AGREE: "Zustimmen und teilen"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "Zur\xFCck zu den Episoden",
+            BACK_TO_MENU: "Zur\xFCck zum Men\xFC",
+            CREATE_NEW_EPISODE: "Eigene Episode erstellen",
+            PREVIOUS_EPISODES: "Vorige Episoden",
+            PROMPT_ADD: "Prompt hinzuf\xFCgen",
+            PROMPT_PLACEHOLDER: "Prompt eingeben",
+            PROMPTS_COUNT_HIDDEN: "({count} versteckt)",
+            TITLE_PLACEHOLDER: "Titel eingeben"
         },
         u5 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Du hast dein Konto erfolgreich mit der Jackbox Audience Kit Twitch-Erweiterung verkn\xFCpft.",
+                WARNING: "F\xDCR DIESEN RAUM IST DIE PUBLIKUMS-EINSTELLUNG NICHT AKTIV"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "NEU VERBUNDEN",
+                SUBTEXT: "Viel Spa\xDF!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "VERBINDUNG UNTERBROCHEN",
+                    SUBTEXT: "Versuche neu zu verbinden ({attempt} von 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "VERBINDUNG ZUM SPIEL UNTERBROCHEN",
+                    SUBTEXT: "Bitte warte w\xE4hrend wir versuchen, die Verbindung wiederherzustellen."
                 }
             }
         },
@@ -26773,12 +26773,12 @@ ${t}`
         }, null, 40, Aae), Me(s, {
             progress: e.player.progress,
             submitted: e.submitting && !e.badAnswer && !e.player.error
-        }, null, 8, ["progress", "submitted"]), !!e.badAnswer || e.player.error ? (J(), ie("div", Rae, [e.player.error ? (J(), ie("span", Pae, $e(e.player.error), 1)) : Re("", !0), e.badAnswer ? (J(), ie("span", Lae, "That's not allowed! Please enter something else.")) : Re("", !0)])) : Re("", !0), V("button", {
+        }, null, 8, ["progress", "submitted"]), !!e.badAnswer || e.player.error ? (J(), ie("div", Rae, [e.player.error ? (J(), ie("span", Pae, $e(e.player.error), 1)) : Re("", !0), e.badAnswer ? (J(), ie("span", Lae, "Das ist nicht erlaubt! Bitte gib etwas anderes ein.")) : Re("", !0)])) : Re("", !0), V("button", {
             class: "submit-button control",
             type: "submit",
-            value: "Submit",
+            value: "Absenden",
             disabled: e.submitDisabled
-        }, " Submit ", 8, xae)], 32)])
+        }, " Absenden ", 8, xae)], 32)])
     }
     const kae = St(Oae, [
         ["render", Nae]
@@ -31832,7 +31832,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             class: "visually-hidden",
             role: "region",
             "aria-label": "instructions"
-        }, " Build your business card by clicking your name below. Once added, you can select your character. ", -1),
+        }, " Erstelle dein Namensschild, indem du deinen Namen unten anklickst. Wähle im Anschluss deinen Charakter aus. ", -1),
         $oe = {
             key: 0,
             class: "avatar-stash",
@@ -31910,13 +31910,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             key: 0,
             class: "name-instructions",
             style: Jn(e.instructionStyles)
-        }, " Drag your name to the card below ", 4))]), V("div", {
+        }, " Ziehe deinen Namen auf deine Karte ", 4))]), V("div", {
             class: ke(e.names.length ? "paper-container slide-down" : "paper-container")
         }, [V("div", xoe, [Me(c, {
             modelValue: e.names,
             "onUpdate:modelValue": t[2] || (t[2] = f => e.names = f),
             class: ke(!e.names.length && !e.draggingName ? "name-draggable name-empty" : "name-draggable"),
-            style: "--content: 'Name here'",
+            style: "--content: 'Name hier'",
             group: {
                 name: "name",
                 put: !0,
@@ -31934,7 +31934,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             modelValue: e.stamps,
             "onUpdate:modelValue": t[3] || (t[3] = f => e.stamps = f),
             class: ke(!!e.names.length && !e.stamps.length && !e.draggingAvatar ? "stamp-draggable empty" : "stamp-draggable"),
-            style: "--content: 'Stamp here'",
+            style: "--content: 'Hier stempeln'",
             group: {
                 name: "stamp",
                 put: ["avatars"],
@@ -32194,7 +32194,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             role: "region",
             class: "visually-hidden",
             "aria-label": "keyboard instructions"
-        }, [V("span", null, " Each sentence will be followed by buttons for each word in the sentence. Once a word has been added to your answer, you can focus that word in the composition and press Alt + Left or Right to change word order ")], -1),
+        }, [V("span", null, " Auf jeden Satz folgen Schaltflächen für jedes Wort im Satz. Sobald deiner Antwort ein Wort hinzugefügt wurde, kannst du dieses Wort in der Komposition fokussieren und Alt + Links oder Rechts drücken, um die Wortreihenfolge zu ändern ")], -1),
         Yoe = {
             role: "region",
             class: "prompt",
@@ -32447,11 +32447,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }]),
                 disabled: !!e.answer && e.answer.length < 1 || e.submitting,
                 onClick: t[5] || (t[5] = Bt((...h) => e.onSubmit && e.onSubmit(...h), ["prevent"]))
-            }, " Submit ", 10, vle), !e.answer.length && !e.submitting ? (J(), ie("button", {
+            }, " Absenden ", 10, vle), !e.answer.length && !e.submitting ? (J(), ie("button", {
                 key: 0,
                 class: "start control",
                 onClick: t[6] || (t[6] = Bt((...h) => e.startForMe && e.startForMe(...h), ["prevent"]))
-            }, " Start for me ")) : Re("", !0)])], 512), Me(u, {
+            }, " Starte für mich ")) : Re("", !0)])], 512), Me(u, {
                 progress: e.player.progress,
                 submitted: e.submitting
             }, null, 8, ["progress", "submitted"])], 2)]),
@@ -32463,7 +32463,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ]),
         Dp = "job-achievement",
         ble = () => {
-            const e = ["Hey!", "Ah!", "Woo!", "I'm going to hide now", "Job Job!", "Working for the weekend!", "Wow!", "Bada bing.", "Booyah", "Why are you poking me?", "Gee whiz", "Hello", "Lena says hi!", "Maybe they'll let me host the game one day.", "Oh!", "Rude", "How do you do?", "Oof", "Sheesh", "No, it's not real leather", "I haven't been fed in 23 years", "I forgot my own lock combination", "If I had hands, I'd poke you back", "Have you heard of Liam? He's great!"];
+            const e = ["Hey!", "Ah!", "Woo!", "Ich verzieh mich", "Job Job!", "Hoch die Hände Wochenende!", "Wow!", "Bada bing.", "Booyah", "Hörst du mal auf mich anzutippen?", "Heiliger Bimbam", "Hallo", "Lena sagt hi!", "Vielleicht darf ich irgendwann moderieren.", "Oh!", "Gemein", "Was geht ab?", "Uff", "Sheesh", "Nein, das ist kein echtes Leder", "Ich wurde seit 23 Jahren nicht gefüttert", "Ich hab die Kombination von meinem eigenen Schloss vergessen", "Hätte ich Hände, würde ich dich auch antippen", "Kennt ihr Louis? Der Typ ist klasse!"];
             return e[Math.floor(Math.random() * e.length)]
         },
         Ele = it({
@@ -32599,7 +32599,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, Ule, 12, Dle)])), e.isPlayer(e.player) && e.player.hasControls ? (J(), ie("div", Fle, [V("button", {
             class: "skip control",
             onClick: t[2] || (t[2] = (...c) => e.skip && e.skip(...c))
-        }, "Skip")])) : Re("", !0)])
+        }, "Weiter")])) : Re("", !0)])
     }
     const Ble = St(Ele, [
             ["render", jle]
@@ -32857,7 +32857,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             role: "region",
             class: "visually-hidden",
             "aria-label": "keyboard instructions"
-        }, [V("span", null, " Each sentence will be followed by buttons for each word in the sentence. Once a word has been added to your answer,you can focus that word in the composition and press Alt + Left or Right to change word order ")], -1),
+        }, [V("span", null, " Auf jeden Satz folgen Schaltflächen für jedes Wort im Satz. Sobald deiner Antwort ein Wort hinzugefügt wurde, kannst du dieses Wort in der Komposition fokussieren und Alt + Links oder Rechts drücken, um die Wortreihenfolge zu ändern ")], -1),
         Xle = ["aria-label"],
         zle = ["onClick"],
         Jle = {
@@ -33070,10 +33070,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, 8, ["modelValue", "disabled"])])) : Re("", !0), V("div", oce, [V("button", {
             class: "shuffle control",
             onClick: t[14] || (t[14] = u => e.showShuffled ? e.showShuffled = !1 : e.shuffleStash())
-        }, $e(e.showShuffled ? "Show Original" : "Shuffle"), 1), V("button", {
+        }, $e(e.showShuffled ? "Original zeigen" : "Mischen"), 1), V("button", {
             class: "unshuffle control",
             onClick: t[15] || (t[15] = u => e.showSorted ? e.showSorted = !1 : e.sortStash())
-        }, $e(e.showSorted ? "Show Original" : "Sort"), 1)])], 6), Me(ki, {
+        }, $e(e.showSorted ? "Original zeigen" : "Sortieren"), 1)])], 6), Me(ki, {
             name: "clipboard",
             appear: ""
         }, {
@@ -33286,7 +33286,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         },
         Fce = V("div", {
             class: "success"
-        }, "You picked:", -1),
+        }, "Deine Wahl:", -1),
         jce = {
             class: "choice"
         };
@@ -33619,7 +33619,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             style: Jn(`--remaining:${e.player.timer.timeLeft>14?"0px":(1-e.player.timer.timeLeft/15)*100+"vh"}`)
         }, null, 6)) : Re("", !0)])) : Re("", !0), e.audiencePlayer ? (J(), ie("div", uue, [e.audiencePlayer.kind !== "Logo" ? (J(), cn(c, {
             key: 0,
-            username: "AUDIENCE"
+            username: "PUBLIKUM"
         })) : Re("", !0), e.audiencePlayer.kind == "Logo" ? (J(), cn(s, {
             key: 1,
             player: e.audiencePlayer

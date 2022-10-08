@@ -12582,7 +12582,7 @@ __p+='`), De
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                     BASE_URL: "https://bundles.jackbox.tv/main/pp3-quiplash2/",
                     MODE: "production",
                     DEV: !1,
@@ -16809,8 +16809,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         },
         onRoomWasDestroyed() {
             en.remove("roomCode"), en.remove("reconnect"), kt.show("error", {
-                titleText: "Disconnected",
-                text: "Thanks for playing!",
+                titleText: "Verbindung getrennt",
+                text: "Danke für's spielen!",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16818,8 +16818,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         },
         onDisconnected() {
             kt.show("error", {
-                titleText: "Disconnected",
-                text: "You have been disconnected.",
+                titleText: "Verbindung getrennt",
+                text: "Deine Verbindung wurde getrennt.",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -17375,8 +17375,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
                 LANGUAGE: "Language",
                 LOGIN: "Login",
-                STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-                STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+                STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+                STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
             },
             fr: {
                 LANGUAGE_NAME: "Fran\xE7ais",

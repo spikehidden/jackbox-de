@@ -10288,7 +10288,7 @@ ${r}`,
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                     BASE_URL: "https://bundles.jackbox.tv/main/pp8-survey-bomb/",
                     MODE: "production",
                     DEV: !1,
@@ -10350,117 +10350,117 @@ ${r.message}`,
         }
     }
     const x4 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Zur\xFCck",
+            CANCEL: "Abbrechen",
+            CLOSE: "Schlie\xDFen",
+            CREATE: "Erstellen",
+            DELETE: "L\xF6schen",
+            DONE: "Fertig",
+            EDIT: "Bearbeiten",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Nein",
+            PLAY: "Spielen",
+            PUBLISH: "Ver\xF6ffentlichen",
+            REMOVE: "Entfernen",
+            RESET: "Neu starten",
+            SUBMIT: "Abschicken",
+            TRY_AGAIN: "Erneut versuchen",
+            UNDO: "Zurück",
+            YES: "Ja"
         },
         D4 = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "Prompts auf Spielerger\xE4ten verborgen",
+                VISIBILITY_CONTROLLER_ON: "Prompts auf Spielerger\xE4ten angezeigt",
+                VISIBILITY_SCREEN_OFF: "Prompts auf Spielbildschirm verborgen",
+                VISIBILITY_SCREEN_ON: "Prompts auf Spielbildschirm angezeigt"
             }
         },
         M4 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Deine Verbindung wurde getrennt.",
+            DRAWING_NOTHING: "Du musst irgendwas zeichnen!",
+            PLAYER_KICKED: "Du wurdest von einem Moderator vom Spiel ausgeschlossen.",
+            ROOM_DESTROYED: "Danke f\xFCrs Spielen!",
+            ROOM_DISCONNECTED: "Verbindung getrennt",
+            TEXT_NAUGHTY: "Das kannst du leider nicht schreiben. Bitte nimm R\xFCcksicht auf deine Mitspieler.",
+            TEXT_NOTHING: "Du musst etwas eingeben!",
+            TITLE: "Fehler"
         },
-        U4 = "LOADING",
+        U4 = "LADE",
         F4 = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "x | {count} von {maxPlayers} Spielern sind beigetreten | {count} von {maxPlayers} Spielern sind beigetreten",
+            PLAYERS_NEEDED: "x | {count} Spieler zum Starten ben\xF6tigt | {count} Spieler zum Starten ben\xF6tigt",
+            WAITING_FOR_VIP: "Warten, bis {name} das Spiel startet",
+            WAITING_FOR_GAMEPAD: "Warten, bis das Spiel startet",
+            GAME_STARTING: "Das Spiel beginnt",
+            BUTTON_START: "Zum Starten dr\xFCcken",
+            BUTTON_CANCEL: "Zum Abbrechen dr\xFCcken"
         },
         B4 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galerie besuchen",
+            PLAY_AGAIN: "Erneut spielen?",
+            BUTTON_SAME_PLAYERS: "Selbe Spieler",
+            BUTTON_NEW_PLAYERS: "Neue Spieler"
         },
         j4 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UND",
+            OR: "ODER"
         },
         G4 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "\xDCberspringen",
+            BUTTON_NEXT: "Weiter",
+            BUTTON_DONE: "Los geht's!"
         },
         W4 = {
             NAME: "AUDIENCE"
         },
         K4 = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Episode melden",
+            EPISODE_UNLOAD: "Episode deaktivieren",
+            EPISODE_VIEW_AUTHOR: "Autor ansehen",
+            EPISODES_LOAD: "Lade eine Episode \xFCber dessen ID:",
+            EPISODES_MENU: "Episoden-Men\xFC",
+            EPISODES_SELECT: "Oder w\xE4hle eine Episode aus:",
+            EPISODES_WARNING: "Achtung: Von Nutzern erstellte Inhalte werden nicht auf Familientauglichkeit gepr\xFCft",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: 'Benenne als allererstes deine Episode, die alle deine Prompts enthalten wird und dr\xFCcke dann "Erstellen".',
+                LOAD: "Erstellen oder laden?",
+                PUBLISH: "Ver\xF6ffentliche deine Episode",
+                TITLE: "Benenne deine Episode",
+                TOGGLE_VISIBILITY: "Dr\xFCcken, um Prompts zu zeigen / zu verstecken",
+                WRITE: "Schreibe deine Prompts"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bist du sicher, dass du diese Episode l\xF6schen m\xF6chtest?",
+                TOS: "Durch das Teilen von Inhalten stimmst du unseren [tos]Nutzungsbedingungen[/tos] zu",
+                TOS_AGREE: "Zustimmen und teilen"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "Zur\xFCck zu den Episoden",
+            BACK_TO_MENU: "Zur\xFCck zum Men\xFC",
+            CREATE_NEW_EPISODE: "Eigene Episode erstellen",
+            PREVIOUS_EPISODES: "Vorige Episoden",
+            PROMPT_ADD: "Prompt hinzuf\xFCgen",
+            PROMPT_PLACEHOLDER: "Prompt eingeben",
+            PROMPTS_COUNT_HIDDEN: "({count} versteckt)",
+            TITLE_PLACEHOLDER: "Titel eingeben"
         },
         H4 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Du hast dein Konto erfolgreich mit der Jackbox Audience Kit Twitch-Erweiterung verkn\xFCpft.",
+                WARNING: "F\xDCR DIESEN RAUM IST DIE PUBLIKUMS-EINSTELLUNG NICHT AKTIV"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "NEU VERBUNDEN",
+                SUBTEXT: "Viel Spa\xDF!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "VERBINDUNG UNTERBROCHEN",
+                    SUBTEXT: "Versuche neu zu verbinden ({attempt} von 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "VERBINDUNG ZUM SPIEL UNTERBROCHEN",
+                    SUBTEXT: "Bitte warte w\xE4hrend wir versuchen, die Verbindung wiederherzustellen."
                 }
             }
         },
@@ -24993,60 +24993,60 @@ ${t}`
         },
         Fte = {
             INSTRUCTION: {
-                ORDERED: "Choose the door you think is {rank}",
-                UNORDERED: "Choose all {amount} correct doors"
+                ORDERED: "Wähle die Tür, von der du denkst sie ist {rank}",
+                UNORDERED: "Wähle alle {amount} richtigen Türen"
             },
-            REMAINING: "Remaining Choices: {remaining}"
+            REMAINING: "Verbleibende Wahlen: {remaining}"
         },
         Bte = {
-            CHOOSE_ONE: "Choose a door",
-            CHOOSE_THIS: "Choose this door"
+            CHOOSE_ONE: "Wähle eine Tür",
+            CHOOSE_THIS: "Wähle diese Tür"
         },
         jte = {
-            FILTER_ERROR: "That\u2019s not allowed, enter something else!",
+            FILTER_ERROR: "Das ist nicht erlaubt. Gib etwas anderes ein!",
             INSTRUCTION: {
-                AVATAR: "Pick your avatar",
-                NAME_TEAM: "Suggest a team name",
-                RANK_TEAM: "Rank your favorite team names"
+                AVATAR: "Wähle deinen Charakter",
+                NAME_TEAM: "Schlage einen Teamnamen vor",
+                RANK_TEAM: "Bewerte deine Lieblings-Teamnamen"
             }
         },
-        Gte = "No torches",
+        Gte = "Keine Fackeln",
         Wte = {
-            CONFIRM: "Yeah, yeah, I got it",
+            CONFIRM: "Ja ja, ist ja gut",
             SUBTEXT: {
-                ATTENTION: "[b]YOU MUST HAVE THE AUDIENCE ON TO PLAY![/b]",
-                BEST: "[b]BEST:[/b] Passwording the game and sharing the password with your desired team",
-                GOOD: "[b]ALMOST AS GOOD:[/b] Hiding the room code and setting a max player limit",
-                RECOMMEND: "We recommend the following settings to help create your desired team and audience.",
-                RESTART: "So, if you haven\u2019t done that, maybe restart the game?"
+                ATTENTION: "[b]DU MUSST DAS PUBLIKUM AKTIVIEREN UM ZU SPIELEN![/b]",
+                BEST: "[b]TIPP:[/b] Schütze das Spiel mit einem Passwort und teile das Passwort mit deinem Team",
+                GOOD: "[b]AUCH GUT:[/b] Verstecke den Raum-Code und stelle ein Spielerlimit ein",
+                RECOMMEND: "Wir schlagen folgende Einstellungen vor, damit du mit deinem Team und einem Publikum spielen kannst.",
+                RESTART: "Also, wenn du das noch nicht gemacht hast, möchtest du vielleicht das Spiel neustarten?"
             },
-            TEXT: "Welcome to Streamer Mode!"
+            TEXT: "Willkommen im Streamer-Modus!"
         },
         Kte = {
-            INSTRUCTION: "Remember your choices",
-            PICK_MORE: "Pick {amount} more"
+            INSTRUCTION: "Merke dir deine Antworten",
+            PICK_MORE: "Wähle {amount} mehr"
         },
-        Hte = "Switch teams",
+        Hte = "Team wechseln",
         Vte = "VS",
         qte = {
             FINAL_CHANCE: {
-                BOTH: "If either team gets the next choice right, the game is over!",
-                CURRENT: "If their team gets their next choice right, the game is over!",
-                HEADER: "Elimination Moment",
-                RIVAL: "If your team gets your next choice right, the game is over!"
+                BOTH: "Wenn ein Team die nächste Antwort richtig hat, ist das Spiel vorbei!",
+                CURRENT: "Wenn das andere Team richtig liegt, ist das Spiel vorbei!",
+                HEADER: "Eliminationsmoment",
+                RIVAL: "Wenn dein Team richtig liegt, ist das Spiel vorbei!"
             },
             LOSE: {
-                HEADER: "You\u2019re Trapped",
-                TEXT: ["Don\u2019t worry, apparently you were tasty.", "At least the other team is happy.", "Learn more about your friends next time.", "Still, you learned a lot about each other.", "It is pitch black. You are likely to be eaten by a grue.", "Even worse, you\u2019re damp.", "Theivery doesn\u2019t pay!", "It\u2019s okay, Laverne will keep you company.", "Enjoy the musty air.", "At least your team name was cool."]
+                HEADER: "Du bist gefangen",
+                TEXT: ["Keine Angst, scheinbar warst du lecker.", "Immerhin ist das andere Team glücklich.", "Lerne deine Freunde nächstes Mal besser kennen.", "Ihr habt trotzdem viel voneinander gelernt.", "Es ist Pechschwarz. Wahrscheinlich wirst du von irgendwas gefressen.", "Noch schlimmer, hier ist es nass.", "Diebstahl zahlt sich nicht aus!", "Schon okay, Laverne wird dir Gesellschaft leisten.", "Genieß die muffige Luft.", "Immerhin war euer Teamname cool."]
             },
-            SKIP_TUTORIALS: "Skip Tutorials",
+            SKIP_TUTORIALS: "Tutorials überspringen",
             UP_NEXT: {
-                HEADER: "You\u2019re Up Next",
-                TEXT: ["Get ready! You\u2019re choosing next.", "Pay attention because you\u2019re picking the next door.", "After this choice, it\u2019s your turn\u2026 so hope they fail!"]
+                HEADER: "Du bist als nächstes!",
+                TEXT: ["Mach dich bereit! Du wählst als nächstes.", "Mach dich bereit, denn du wählst die nächste Tür.", "Nach dieser Entscheidung bist du dran! Hoffe also, dass sie scheitern!"]
             },
             WIN: {
-                HEADER: "You Escaped",
-                TEXT: ["Congratulations on a job well done!", "Teamwork made this dream work.", "Don\u2019t spend all that gold you stole earlier in one place.", "Enjoy the fresh air.", "Don\u2019t forget to rate your stay!", "I\u2019m sure the other team is just fine.", "You picked your friends\u2019 knows!", "Looking forward to your next visit.", "The real treasure was the friends we lost to the depths of this mine.", "Everyone is proud of you."]
+                HEADER: "Du bist entkommen!",
+                TEXT: ["Glückwunsch! Wirklich gute Arbeit!", "Im Team läuft doch alles besser", "Gib nicht all dein Geld auf einmal aus.", "Genieß die frische Luft.", "Vergiss nicht, deinen Aufenthalt zu bewerten!", "Ich bin mir sicher den anderen geht es gut.", "Du kennst deine Freunde! Cool!", "Wir freuen uns auf deinen nächsten Besuch.", "Der wahre Schatz ist die Freundschaft, die wir in dieser Mine verloren haben.", "Alle sind super stolz auf dich."]
             }
         },
         Yte = {

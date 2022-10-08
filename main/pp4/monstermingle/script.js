@@ -12580,7 +12580,7 @@ class ii {
                 TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                 TV_SENTRY_RATE: "0.2",
                 TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                 BASE_URL: "https://bundles.jackbox.tv/main/pp4-monstermingle/",
                 MODE: "production",
                 DEV: !1,
@@ -16807,8 +16807,8 @@ ht.View.extend({
     },
     onRoomWasDestroyed() {
         tn.remove("roomCode"), tn.remove("reconnect"), kt.show("error", {
-            titleText: "Disconnected",
-            text: "Thanks for playing!",
+            titleText: "Verbindung getrennt",
+            text: "Danke für's spielen!",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16816,8 +16816,8 @@ ht.View.extend({
     },
     onDisconnected() {
         kt.show("error", {
-            titleText: "Disconnected",
-            text: "You have been disconnected.",
+            titleText: "Verbindung getrennt",
+            text: "Deine Verbindung wurde getrennt.",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16886,28 +16886,28 @@ const HC = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Lehn dich zurück und entspanne!",
+                vip_waiting: "Warte auf die anderen Spieler",
+                vip_canStart: "Drücke diesen Knopf, wenn alle bereit sind",
+                vip_cancel: "Drücke diesen Knopf, um den Spielstart abzubrechen",
+                vip_postgame: "Was möchtet ihr jetzt machen?",
+                vip_episodes_menu: "Episoden Menü",
+                vip_episodes_unload: "Episode deaktivieren",
+                vip_episodes_report: "Episode melden",
+                vip_episodes_warning: "Warnung: Nutzergenerierte Inhalte werden nicht geprüft",
+                vip_episodes_load: "Lade Episode mit ID:",
+                vip_episodes_select: "Oder wähle eine Episode:",
+                vip_episodes_back: "Zurück",
+                vip_episodes_submit: "senden",
+                vip_episodes_view_author: "Autor anzeigen",
+                button_start: "Alle Bereit",
+                button_cancel: "Abbrechen",
+                button_changename: "Name ändern",
+                button_sameplayers: "Gleiche Spieler",
+                button_newplayers: "Andere Spieler",
+                prompt_entername: "Gib deinen Namen ein",
+                prompt_choosecharacter: "Wähle deinen Charakter",
+                button_censorOptions: "Zensur Einstellungen",
                 censor_prompt: ""
             }
         }
@@ -17346,8 +17346,8 @@ const HC = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -21477,10 +21477,10 @@ const zx = ht.View.extend({
     <div class="monsterIcon chatAvatars"><div class="blockedIcon"></div></div>
     <div class="monsterClass"><span class="monsterClassIntro">monsterClassIntro</span><br><span class="monsterClassName">monsterClassName</span></div>
     <div class="monsterPower">
-        <span class="monsterPowerIntro">Powers:</span>
+        <span class="monsterPowerIntro">Kräfte:</span>
         <p class="monsterPowerDescription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laureet dolore magna aliquam</p>
     </div>
-    <button class='startChattingButton btn'>Start Chatting!</button>
+    <button class='startChattingButton btn'>Jetzt chatten!</button>
     <button class="blockButton btn">Block</button>
 </div>`,
     yl = ht.View.extend({
@@ -21505,7 +21505,7 @@ const zx = ht.View.extend({
             ".blockedMessage": {
                 observe: "blocked",
                 onGet(t) {
-                    return t === !0 ? `You are not receiving messages from ${this.model.attributes.name}` : ""
+                    return t === !0 ? `Du bekommst keine Nachrichten von ${this.model.attributes.name}` : ""
                 }
             },
             ".monsterClassIntro": {
@@ -21513,7 +21513,7 @@ const zx = ht.View.extend({
                 onGet(t) {
                     const e = "aeiouAEIOU";
                     let n = "a";
-                    return e.indexOf(t[1].name[0]) !== -1 && (n = "an"), t[0] === !0 ? `You are ${n}` : `This player is ${n}`
+                    return e.indexOf(t[1].name[0]) !== -1 && (n = "an"), t[0] === !0 ? `Du bist` : `Dieser Spieler ist`
                 }
             },
             ".monsterClassName": {
@@ -21574,7 +21574,7 @@ const zx = ht.View.extend({
             ".blockButton": {
                 observe: "blocked",
                 onGet(t) {
-                    return t === !0 ? "Unblock" : "Block"
+                    return t === !0 ? "Freigeben" : "Blockieren"
                 },
                 attributes: [{
                     name: "style",
@@ -21586,7 +21586,7 @@ const zx = ht.View.extend({
                     name: "class",
                     observe: "playerName",
                     onGet(t) {
-                        return t === "AUDIENCE" ? "hidden" : ""
+                        return t === "PUBLIKUM" ? "hidden" : ""
                     }
                 }]
             },
@@ -21813,7 +21813,7 @@ const zx = ht.View.extend({
             }), this.chatDetailInput = new hs({
                 preventAutosize: !0,
                 model: new Ue.Model({
-                    placeholder: "send a message",
+                    placeholder: "Sende eine Nachricht",
                     inlineSubmit: !0,
                     maxLength: 50
                 })
@@ -21831,7 +21831,7 @@ const zx = ht.View.extend({
         },
         async update() {
             const t = this;
-            if (this.player = this.model.get("player"), this.chat = this.model.get("chat") || {}, this.model.get("chosenDateUserId") && (this.chat.mode = "browse"), this.player && (this.summaryTopComponent.model.set("player", this.player), this.chat.mode === "chat" ? (this.summaryTopComponent.model.set("mode", "TIME TO CHAT"), this.summaryTopComponent.model.set("description", "Click on a player to message them")) : this.chat.mode === "date" ? (this.summaryTopComponent.model.set("mode", "TIME TO CHOOSE"), this.summaryTopComponent.model.set("description", "Who do you want to date?")) : this.chat.mode === "browse" && this.model.get("chosenDateUserId") !== null && (this.summaryTopComponent.model.set("mode", "DATE CHOSEN"), this.summaryTopComponent.model.set("description", "Wait for others to choose"))), this.chat) {
+            if (this.player = this.model.get("player"), this.chat = this.model.get("chat") || {}, this.model.get("chosenDateUserId") && (this.chat.mode = "browse"), this.player && (this.summaryTopComponent.model.set("player", this.player), this.chat.mode === "chat" ? (this.summaryTopComponent.model.set("mode", "ZEIT ZU SCHREIBEN"), this.summaryTopComponent.model.set("description", "Klicke auf einen Spieler, um mit ihm zu schreiben")) : this.chat.mode === "date" ? (this.summaryTopComponent.model.set("mode", "ZEIT ZU WÄHLEN"), this.summaryTopComponent.model.set("description", "Wen möchtest du daten?")) : this.chat.mode === "browse" && this.model.get("chosenDateUserId") !== null && (this.summaryTopComponent.model.set("mode", "DATE GEWÄHLT"), this.summaryTopComponent.model.set("description", "Warte auf die Auswahl der anderen"))), this.chat) {
                 let e;
                 if (this.client.isRole("player")) {
                     if (e = !1, this.model.changed.alerts && (this.showAlerts(this.model.get("alerts")), kt.vibrate()), this.oldUnread < this.chat.unread && (kt.vibrate(), this.playSound()), this.chatDetailComponent.model.set("unread", this.chat.unread), this.oldUnread = this.chat.unread, this.detailContactId !== null) {
@@ -21843,9 +21843,9 @@ const zx = ht.View.extend({
                             i && i.$el.scrollTop(i.$el[0].scrollHeight)
                         }
                     }
-                    this.summaryCollection.set(this.chat.conversations), this.chat.mode === "chat" ? (this.bottomComponent.model.set("text", `You have ${this.chat.messagesAvailableToSend}${this.chat.messagesAvailableToSend===1?" message ":" messages "} left to send`), this.bottomComponent.model.set("background", this.player.color.medium)) : this.chat.mode === "date" ? this.bottomComponent.model.set("text", "Click DATE button on this screen, or within a conversation if still reading.") : this.bottomComponent.model.set("text", ""), this.chat.mode && this.mode !== this.chat.mode && (!this.detailContactId && this.getRegion("summary") && this.getRegion("summary").currentView === this.summaryList ? this.showChatSummary() : this.detailContactId && this.showChatDetail(this.detailContactId)), this.mode = this.chat.mode, this.chat.showProfile && this.showPlayerProfile(this.player, !0)
+                    this.summaryCollection.set(this.chat.conversations), this.chat.mode === "chat" ? (this.bottomComponent.model.set("text", `Du kannst noch ${this.chat.messagesAvailableToSend}${this.chat.messagesAvailableToSend===1?" Nachricht ":" Nachrichten "} senden`), this.bottomComponent.model.set("background", this.player.color.medium)) : this.chat.mode === "date" ? this.bottomComponent.model.set("text", "Klicke den DATE Knopf auf dem Bildschirm, oder während einer Konversation.") : this.bottomComponent.model.set("text", ""), this.chat.mode && this.mode !== this.chat.mode && (!this.detailContactId && this.getRegion("summary") && this.getRegion("summary").currentView === this.summaryList ? this.showChatSummary() : this.detailContactId && this.showChatDetail(this.detailContactId)), this.mode = this.chat.mode, this.chat.showProfile && this.showPlayerProfile(this.player, !0)
                 } else if (this.client.isRole("audience")) {
-                    if (this.model.changed.alerts && this.showAlerts(this.model.get("alerts")), this.summaryTopComponent.model.set("player", this.player), this.summaryTopComponent.model.set("mode", "AUDIENCE"), this.summaryTopComponent.model.set("description", "Vote what to say next"), e = this.chat && this.chat.history.length > this.chatDetailCollection.length, this.chat && this.chat.history) {
+                    if (this.model.changed.alerts && this.showAlerts(this.model.get("alerts")), this.summaryTopComponent.model.set("player", this.player), this.summaryTopComponent.model.set("mode", "AUDIENCE"), this.summaryTopComponent.model.set("description", "Wähle, was als nächstes gesagt werden soll"), e = this.chat && this.chat.history.length > this.chatDetailCollection.length, this.chat && this.chat.history) {
                         this.allContacts = Be.union([this.player], this.chat.contacts);
                         let n = 0;
                         this.fullHistory = Be.map(this.chat.history, i => (i.sender = Be.findWhere(this.allContacts, {

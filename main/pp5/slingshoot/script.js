@@ -12580,7 +12580,7 @@ class ii {
                 TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                 TV_SENTRY_RATE: "0.2",
                 TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                 BASE_URL: "https://bundles.jackbox.tv/main/pp5-slingshoot/",
                 MODE: "production",
                 DEV: !1,
@@ -16807,8 +16807,8 @@ Et.View.extend({
     },
     onRoomWasDestroyed() {
         Zt.remove("roomCode"), Zt.remove("reconnect"), Ot.show("error", {
-            titleText: "Disconnected",
-            text: "Thanks for playing!",
+            titleText: "Verbindung getrennt",
+            text: "Danke für's spielen!",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16816,8 +16816,8 @@ Et.View.extend({
     },
     onDisconnected() {
         Ot.show("error", {
-            titleText: "Disconnected",
-            text: "You have been disconnected.",
+            titleText: "Verbindung getrennt",
+            text: "Deine Verbindung wurde getrennt.",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16886,28 +16886,28 @@ const eh = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Lehn dich zurück und entspanne!",
+                vip_waiting: "Warte auf die anderen Spieler",
+                vip_canStart: "Drücke diesen Knopf, wenn alle bereit sind",
+                vip_cancel: "Drücke diesen Knopf, um den Spielstart abzubrechen",
+                vip_postgame: "Was möchtet ihr jetzt machen?",
+                vip_episodes_menu: "Episoden Menü",
+                vip_episodes_unload: "Episode deaktivieren",
+                vip_episodes_report: "Episode melden",
+                vip_episodes_warning: "Warnung: Nutzergenerierte Inhalte werden nicht geprüft",
+                vip_episodes_load: "Lade Episode mit ID:",
+                vip_episodes_select: "Oder wähle eine Episode:",
+                vip_episodes_back: "Zurück",
+                vip_episodes_submit: "senden",
+                vip_episodes_view_author: "Autor anzeigen",
+                button_start: "Alle Bereit",
+                button_cancel: "Abbrechen",
+                button_changename: "Name ändern",
+                button_sameplayers: "Gleiche Spieler",
+                button_newplayers: "Andere Spieler",
+                prompt_entername: "Gib deinen Namen ein",
+                prompt_choosecharacter: "Wähle deinen Charakter",
+                button_censorOptions: "Zensur Einstellungen",
                 censor_prompt: ""
             }
         }
@@ -17346,8 +17346,8 @@ const eh = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -21027,7 +21027,7 @@ const $x = Et.View.extend({
         model: new Fx({}),
         template: at.template(`${eh}<div class="mech"></div>`),
         update() {
-            this.strings = this.model.get("strings"), this.model.get("gameCanContinue") ? (this.strings.button_sameplayers = "Start Next Gauntlet", this.strings.button_newplayers = "Quit") : (this.strings.button_sameplayers = "Same Players", this.strings.button_newplayers = "New Players"), no.prototype.update.apply(this)
+            this.strings = this.model.get("strings"), this.model.get("gameCanContinue") ? (this.strings.button_sameplayers = "Nächste Prüfung starten", this.strings.button_newplayers = "Quit") : (this.strings.button_sameplayers = "Gleiche Spieler", this.strings.button_newplayers = "Andere Spieler"), no.prototype.update.apply(this)
         }
     });
 const Hx = La.extend({

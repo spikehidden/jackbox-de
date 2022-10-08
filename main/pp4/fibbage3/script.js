@@ -12584,7 +12584,7 @@ class ii {
                 TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                 TV_SENTRY_RATE: "0.2",
                 TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                 BASE_URL: "https://bundles.jackbox.tv/main/pp4-fibbage3/",
                 MODE: "production",
                 DEV: !1,
@@ -16811,8 +16811,8 @@ xt.View.extend({
     },
     onRoomWasDestroyed() {
         en.remove("roomCode"), en.remove("reconnect"), bt.show("error", {
-            titleText: "Disconnected",
-            text: "Thanks for playing!",
+            titleText: "Verbindung getrennt",
+            text: "Danke für's spielen!",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16820,8 +16820,8 @@ xt.View.extend({
     },
     onDisconnected() {
         bt.show("error", {
-            titleText: "Disconnected",
-            text: "You have been disconnected.",
+            titleText: "Verbindung getrennt",
+            text: "Deine Verbindung wurde getrennt.",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16890,28 +16890,28 @@ const UC = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Lehn dich zurück und entspanne!",
+                vip_waiting: "Warte auf die anderen Spieler",
+                vip_canStart: "Drücke diesen Knopf, wenn alle bereit sind",
+                vip_cancel: "Drücke diesen Knopf, um den Spielstart abzubrechen",
+                vip_postgame: "Was möchtet ihr jetzt machen?",
+                vip_episodes_menu: "Episoden Menü",
+                vip_episodes_unload: "Episode deaktivieren",
+                vip_episodes_report: "Episode melden",
+                vip_episodes_warning: "Warnung: Nutzergenerierte Inhalte werden nicht geprüft",
+                vip_episodes_load: "Lade Episode mit ID:",
+                vip_episodes_select: "Oder wähle eine Episode:",
+                vip_episodes_back: "Zurück",
+                vip_episodes_submit: "senden",
+                vip_episodes_view_author: "Autor anzeigen",
+                button_start: "Alle Bereit",
+                button_cancel: "Abbrechen",
+                button_changename: "Name ändern",
+                button_sameplayers: "Gleiche Spieler",
+                button_newplayers: "Andere Spieler",
+                prompt_entername: "Gib deinen Namen ein",
+                prompt_choosecharacter: "Wähle deinen Charakter",
+                button_censorOptions: "Zensur Einstellungen",
                 censor_prompt: ""
             }
         }
@@ -17350,8 +17350,8 @@ const UC = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -21022,16 +21022,16 @@ const Gx = xt.View.extend({
             })
         })
     },
-    Hx = `<div>Are you sure you want to censor the answer <span class="censorMenuTitle">title</span></div>
+    Hx = `<div>Möchtest du wirklich diese Antwort zensieren? <span class="censorMenuTitle">title</span></div>
 <div class="btn-toolbar choices">
     <div class="button-group btn-group btn-block">
-        <button type="button" style="" class="button btn btn-lg censorRound">CENSOR THIS ENTRY</button>
+        <button type="button" style="" class="button btn btn-lg censorRound">DIESEN EINTRAG ZENSIEREN</button>
     </div>
     <div class="button-group btn-group btn-block">
-        <button type="button" style="" class="button btn btn-lg censorGame">CENSOR THIS PLAYER</button>
+        <button type="button" style="" class="button btn btn-lg censorGame">DIESEN SPIELER ZENSIEREN</button>
     </div>
     <div class="button-group btn-group btn-block">
-        <button type="button" style="" class="button btn btn-lg cancel">CANCEL</button>
+        <button type="button" style="" class="button btn btn-lg cancel">ABBRECHEN</button>
     </div>
 </div>`,
     qx = xt.View.extend({
@@ -21107,7 +21107,7 @@ const Gx = xt.View.extend({
                 vote: this.model.get("choices")[n].text
             }), this.model.setUpdate({
                 prompt: {
-                    text: `Thank you. Your choice: ${this.model.get("choices")[n].text}`,
+                    text: `Danke. Deine Wahl: ${this.model.get("choices")[n].text}`,
                     html: null
                 },
                 choices: []
@@ -21155,17 +21155,17 @@ const Gx = xt.View.extend({
             </div>
             <span class="inlineSubmit">
                 <div class="col-xs-6">
-                    <button type="button" class="btn btn-block lieForMe" type="button">Lie For Me</button>
+                    <button type="button" class="btn btn-block lieForMe" type="button">Lüge für mich</button>
                 </div>
                 <div class="col-xs-6">
-                    <button type="submit" class="btn btn-block submitButton" type="button">Send</button>
+                    <button type="submit" class="btn btn-block submitButton" type="button">Senden</button>
                 </div>
             </span>
         </div>
     </div>
 </div>
 <div class="entryDone">
-    Thank you! Your entry: <span class="entryText">entryText</span>
+    Danke! Deine Antwort: <span class="entryText">entryText</span>
 </div>
 </form>`,
     Jx = us.extend({
@@ -21302,8 +21302,8 @@ const Gx = xt.View.extend({
             let t = this.inputComponent.getValue();
             const e = {};
             if (this.inputComponent.model.set("error", ""), typeof t == "object") {
-                if (t[0] = t[0].replace(/\s\s+/g, " ").trim(), t[1] = t[1].replace(/\s\s+/g, " ").trim(), e.inputs = t, t[0] === "" || t[1] === "") return this.inputComponent.model.set("error", "You must write two things."), !1
-            } else if (t = t.replace(/\s\s+/g, " ").trim(), e.entry = t, e.entry.length === 0) return this.inputComponent.model.set("error", "You must write something."), !1;
+                if (t[0] = t[0].replace(/\s\s+/g, " ").trim(), t[1] = t[1].replace(/\s\s+/g, " ").trim(), e.inputs = t, t[0] === "" || t[1] === "") return this.inputComponent.model.set("error", "Du musst zwei Antworten schreiben."), !1
+            } else if (t = t.replace(/\s\s+/g, " ").trim(), e.entry = t, e.entry.length === 0) return this.inputComponent.model.set("error", "Du musst etwas schreiben."), !1;
             return this.triggerMethod("client:message", e), !1
         }
     }),
@@ -21320,7 +21320,7 @@ const Gx = xt.View.extend({
             }
         }),
         update() {
-            Ys.prototype.update.apply(this, []), !this.model.get("playerCanStartGame") && this.model.get("type") === "TMI" && this.titleComponent.model.set("text", "TIP: This game is better when you use your real name!")
+            Ys.prototype.update.apply(this, []), !this.model.get("playerCanStartGame") && this.model.get("type") === "TMI" && this.titleComponent.model.set("text", "TIPP: Das Spiel funktioniert besser, wenn du deinen echten Namen verwendest!")
         }
     }),
     eE = hs.extend({
@@ -21398,9 +21398,9 @@ const tE = $x.extend({
                 className: S
             }
         })), t.state === "CategorySelection" && (t.state = "MakeSingleChoice", t.classes = ["CategorySelection"], t.prompt = t.isChoosing ? {
-            text: "Pick a Category"
+            text: "Wähle eine Kategorie"
         } : {
-            text: `${t.choosingPlayerName} is picking a category`
+            text: `${t.choosingPlayerName} wählt eine Kategorie`
         }, t.choices = t.choices && t.isChoosing ? t.choices.map((e, n) => ({
             text: e,
             order: n,

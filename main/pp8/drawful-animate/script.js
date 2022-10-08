@@ -10460,7 +10460,7 @@ ${n}`,
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                     BASE_URL: "https://bundles.jackbox.tv/main/pp8-drawful-animate/",
                     MODE: "production",
                     DEV: !1,
@@ -10823,118 +10823,118 @@ ${n.message}`,
     let Bl = qa;
     le(Bl, "isPolyfilled", !1);
     const jj = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Zur\xFCck",
+            CANCEL: "Abbrechen",
+            CLOSE: "Schlie\xDFen",
+            CONFIRM: "Best\xE4tigen",
+            CREATE: "Erstellen",
+            DELETE: "L\xF6schen",
+            DONE: "Fertig",
+            EDIT: "Bearbeiten",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Nein",
+            PLAY: "Spielen",
+            PUBLISH: "Ver\xF6ffentlichen",
+            REMOVE: "Entfernen",
+            RESET: "Neu starten",
+            SUBMIT: "Abschicken",
+            TRY_AGAIN: "Erneut versuchen",
+            UNDO: "Zurück",
+            YES: "Ja"
         },
         Wj = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "Prompts auf Spielerger\xE4ten verborgen",
+                VISIBILITY_CONTROLLER_ON: "Prompts auf Spielerger\xE4ten angezeigt",
+                VISIBILITY_SCREEN_OFF: "Prompts auf Spielbildschirm verborgen",
+                VISIBILITY_SCREEN_ON: "Prompts auf Spielbildschirm angezeigt"
             }
         },
         Kj = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Deine Verbindung wurde getrennt.",
+            DRAWING_NOTHING: "Du musst irgendwas zeichnen!",
+            PLAYER_KICKED: "Du wurdest von einem Moderator vom Spiel ausgeschlossen.",
+            ROOM_DESTROYED: "Danke f\xFCrs Spielen!",
+            ROOM_DISCONNECTED: "Verbindung getrennt",
+            TEXT_NAUGHTY: "Das kannst du leider nicht schreiben. Bitte nimm R\xFCcksicht auf deine Mitspieler.",
+            TEXT_NOTHING: "Du musst etwas eingeben!",
+            TITLE: "Fehler"
         },
-        Hj = "LOADING",
+        Hj = "LADE",
         Vj = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "x | {count} von {maxPlayers} Spielern sind beigetreten | {count} von {maxPlayers} Spielern sind beigetreten",
+            PLAYERS_NEEDED: "x | {count} Spieler zum Starten ben\xF6tigt | {count} Spieler zum Starten ben\xF6tigt",
+            WAITING_FOR_VIP: "Warten, bis {name} das Spiel startet",
+            WAITING_FOR_GAMEPAD: "Warten, bis das Spiel startet",
+            GAME_STARTING: "Das Spiel beginnt",
+            BUTTON_START: "Zum Starten dr\xFCcken",
+            BUTTON_CANCEL: "Zum Abbrechen dr\xFCcken"
         },
         Yj = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galerie besuchen",
+            PLAY_AGAIN: "Erneut spielen?",
+            BUTTON_SAME_PLAYERS: "Selbe Spieler",
+            BUTTON_NEW_PLAYERS: "Neue Spieler"
         },
         qj = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UND",
+            OR: "ODER"
         },
         Xj = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "\xDCberspringen",
+            BUTTON_NEXT: "Weiter",
+            BUTTON_DONE: "Los geht's!"
         },
         zj = {
-            NAME: "AUDIENCE"
+            NAME: "PUBLIKUM"
         },
         Jj = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Episode melden",
+            EPISODE_UNLOAD: "Episode deaktivieren",
+            EPISODE_VIEW_AUTHOR: "Autor ansehen",
+            EPISODES_LOAD: "Lade eine Episode \xFCber dessen ID:",
+            EPISODES_MENU: "Episoden-Men\xFC",
+            EPISODES_SELECT: "Oder w\xE4hle eine Episode aus:",
+            EPISODES_WARNING: "Achtung: Von Nutzern erstellte Inhalte werden nicht auf Familientauglichkeit gepr\xFCft",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: 'Benenne als allererstes deine Episode, die alle deine Prompts enthalten wird und dr\xFCcke dann "Erstellen".',
+                LOAD: "Erstellen oder laden?",
+                PUBLISH: "Ver\xF6ffentliche deine Episode",
+                TITLE: "Benenne deine Episode",
+                TOGGLE_VISIBILITY: "Dr\xFCcken, um Prompts zu zeigen / zu verstecken",
+                WRITE: "Schreibe deine Prompts"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bist du sicher, dass du diese Episode l\xF6schen m\xF6chtest?",
+                TOS: "Durch das Teilen von Inhalten stimmst du unseren [tos]Nutzungsbedingungen[/tos] zu",
+                TOS_AGREE: "Zustimmen und teilen"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "Zur\xFCck zu den Episoden",
+            BACK_TO_MENU: "Zur\xFCck zum Men\xFC",
+            CREATE_NEW_EPISODE: "Eigene Episode erstellen",
+            PREVIOUS_EPISODES: "Vorige Episoden",
+            PROMPT_ADD: "Prompt hinzuf\xFCgen",
+            PROMPT_PLACEHOLDER: "Prompt eingeben",
+            PROMPTS_COUNT_HIDDEN: "({count} versteckt)",
+            TITLE_PLACEHOLDER: "Titel eingeben"
         },
         Zj = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Du hast dein Konto erfolgreich mit der Jackbox Audience Kit Twitch-Erweiterung verkn\xFCpft.",
+                WARNING: "F\xDCR DIESEN RAUM IST DIE PUBLIKUMS-EINSTELLUNG NICHT AKTIV"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "NEU VERBUNDEN",
+                SUBTEXT: "Viel Spa\xDF!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "VERBINDUNG UNTERBROCHEN",
+                    SUBTEXT: "Versuche neu zu verbinden ({attempt} von 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "VERBINDUNG ZUM SPIEL UNTERBROCHEN",
+                    SUBTEXT: "Bitte warte w\xE4hrend wir versuchen, die Verbindung wiederherzustellen."
                 }
             }
         },
@@ -25558,82 +25558,82 @@ ${t}`
             })
         },
         tne = {
-            VIP_PORTRAIT_WARNING: "you sure you want to start before everyone\u2019s avatars are in?",
-            VIP_PORTRAIT_WARNING_CANCEL: "no",
-            VIP_PORTRAIT_WARNING_CONFIRM: "yes",
-            VIP_EPISODES_MENU: "episodes menu",
-            VIP_EPISODES_UNLOAD: "unload episode",
-            VIP_EPISODES_REPORT: "report episode",
-            VIP_EPISODES_WARNING: "warning: user generated content is not rated",
-            VIP_EPISODES_LOAD: "load an episode by ID:",
-            VIP_EPISODES_SELECT: "or select an episode:",
-            VIP_EPISODES_BACK: "back",
-            VIP_EPISODES_SUBMIT: "submit",
-            VIP_EPISODES_VIEW_AUTHOR: "view author"
+            VIP_PORTRAIT_WARNING: "möchtest du wirklich starten, bevor die anderen spieler ihren avatar gezeichnet haben?",
+            VIP_PORTRAIT_WARNING_CANCEL: "nein",
+            VIP_PORTRAIT_WARNING_CONFIRM: "ja",
+            VIP_EPISODES_MENU: "episoden menü",
+            VIP_EPISODES_UNLOAD: "episode deaktivieren",
+            VIP_EPISODES_REPORT: "episode melden",
+            VIP_EPISODES_WARNING: "warnung: nutzerinhalte werden vorher nicht überprüft",
+            VIP_EPISODES_LOAD: "lade eine episode mit einer ID:",
+            VIP_EPISODES_SELECT: "oder wähle eine episode:",
+            VIP_EPISODES_BACK: "zurück",
+            VIP_EPISODES_SUBMIT: "absenden",
+            VIP_EPISODES_VIEW_AUTHOR: "autor anzeigen"
         },
         nne = {
-            SLIDE_1_TITLE: "You will create a simple animation.",
-            SLIDE_1_ITEM_1: "Draw your first frame.",
-            SLIDE_1_ITEM_2: "Then tap on the frame 2 tab.",
-            SLIDE_2_TITLE: "Draw your second frame.",
-            SLIDE_2_ITEM_1: "You\u2019ll see your first drawing for reference.",
-            SLIDE_2_ITEM_2: "The faded lines will not appear in the animation.",
-            SLIDE_3_TITLE: "You have 3 colors.",
-            SLIDE_3_ITEM_1: "Every player has a different set of colors.",
-            SLIDE_3_ITEM_2: "There is NO eraser.",
-            SLIDE_4_TITLE: "When BOTH frames are done, tap the Submit button.",
-            SLIDE_4_ITEM_1: "You can alternate between tabs before submitting.",
-            SLIDE_5_TITLE: "And presto, it\u2019s your avatar!"
+            SLIDE_1_TITLE: "Du wirst eine einfache Animation erstellen.",
+            SLIDE_1_ITEM_1: "Zeichne dein erstes Bild.",
+            SLIDE_1_ITEM_2: "Klicke dann auf Bild 2.",
+            SLIDE_2_TITLE: "Zeichne dein zweites Bild.",
+            SLIDE_2_ITEM_1: "Du siehst deine erste Zeichnung als Referenz.",
+            SLIDE_2_ITEM_2: "Die blassen Linien werden später nicht zu sehen sein.",
+            SLIDE_3_TITLE: "Du hast 3 Farben.",
+            SLIDE_3_ITEM_1: "Alle Spieler haben unterschiedliche Farben.",
+            SLIDE_3_ITEM_2: "Es gibt KEIN Radiergummi.",
+            SLIDE_4_TITLE: "Wenn BEIDE Bilder fertig sind, klicke auf absenden.",
+            SLIDE_4_ITEM_1: "Du kannst zwischen Tabs jederzeit wechseln.",
+            SLIDE_5_TITLE: "Und tada, du hast einen Avatar!"
         },
         rne = {
-            BUTTON_ADD: "add prompt",
-            BUTTON_BACK_TO_EPISODES: "back to episodes",
-            BUTTON_BACK_TO_MENU: "back to menu",
-            BUTTON_CLOSE: "close",
-            BUTTON_DELETE: "delete",
-            BUTTON_DONE: "done",
-            BUTTON_EDIT: "edit",
-            BUTTON_PLAY: "play",
-            BUTTON_PUBLISH: "publish",
-            BUTTON_SAVE: "save",
-            CREATE_NEW_BUTTON: "create",
-            CREATE_NEW_EPISODE: "create a new episode",
-            CREATE_NEW_NAME_PROMPT: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-            DELETE_WARNING: "are you sure you want to delete this episode?",
-            DELETE_WARNING_CANCEL: "no",
-            DELETE_WARNING_CONFIRM: "yes",
-            INPUT_PLACEHOLDER: "enter a prompt",
-            TITLE_INPUT_PLACEHOLDER: "enter a title",
-            LABEL_HIDDEN: "hidden",
-            PREVIOUS_EPISODES: "previous episodes",
-            TOGGLE_PROMPTS_PROMPT: "tap to show/hide prompts",
-            TOS_WARNING: "by sharing content, you agree to our [tos]Terms of Service[/tos]",
-            TOS_WARNING_AGREE: "agree and share",
-            TOS_WARNING_BACK: "back to menu",
-            HEADER_DEFAULT: "create or load?",
-            HEADER_TITLE: "name your episode",
-            HEADER_WRITE: "write your prompts",
-            HEADER_PUBLISH: "publish your episode"
+            BUTTON_ADD: "prompt hinzufügen",
+            BUTTON_BACK_TO_EPISODES: "zurück zu den episoden",
+            BUTTON_BACK_TO_MENU: "zurück zum menü",
+            BUTTON_CLOSE: "schliessen",
+            BUTTON_DELETE: "löschen",
+            BUTTON_DONE: "fertig",
+            BUTTON_EDIT: "bearbeiten",
+            BUTTON_PLAY: "spielen",
+            BUTTON_PUBLISH: "veröffentlichen",
+            BUTTON_SAVE: "speichern",
+            CREATE_NEW_BUTTON: "erstellen",
+            CREATE_NEW_EPISODE: "erstelle eine neue episode",
+            CREATE_NEW_NAME_PROMPT: "gebe der episode, in der alle deine prompts gespeichert sind, zuerst einen namen.",
+            DELETE_WARNING: "möchtest du die episode wirklich löschen?",
+            DELETE_WARNING_CANCEL: "nein",
+            DELETE_WARNING_CONFIRM: "ja",
+            INPUT_PLACEHOLDER: "gib einen prompt ein",
+            TITLE_INPUT_PLACEHOLDER: "gib einen titel ein",
+            LABEL_HIDDEN: "versteckt",
+            PREVIOUS_EPISODES: "ältere episoden",
+            TOGGLE_PROMPTS_PROMPT: "tippe um prompts zu zeigen / verstecken",
+            TOS_WARNING: "durch das teilen stimmst du unseren [tos]Nutzungsbedingungen[/tos] zu",
+            TOS_WARNING_AGREE: "zustimmen und teilen",
+            TOS_WARNING_BACK: "zurück zum menü",
+            HEADER_DEFAULT: "erstellen oder laden?",
+            HEADER_TITLE: "benenne die episode",
+            HEADER_WRITE: "schreibe deine prompts",
+            HEADER_PUBLISH: "veröffentliche die episode"
         },
         ine = {
-            DONE: "thanks for your answer. if the audience nailed it, we\u2019ll let you know.",
-            BUTTON_SUBMIT: "send",
-            FRIEND_HINT: "psst\u2026 they/them pronouns are used in titles",
-            PROMPT: "write an answer below that will fool the others",
-            FILTER_ERROR: "that's not allowed, enter something else! (you can change the level of filtering in the game's settings menu)"
+            DONE: "danke für deine antwort. wir sagen dir bescheid, wenn es das publikum richtig hat.",
+            BUTTON_SUBMIT: "senden",
+            FRIEND_HINT: "psstâ€¦ er/seine sind die vom spiel verwendeten pronomen",
+            PROMPT: "schreibe einen titel, der die anderen austrickst",
+            FILTER_ERROR: "das kannst du leider nicht schreiben! (du kannst die filter-einstellungen in den optionen anpassen)"
         },
         sne = {
-            BUTTON_SUBMIT: "submit",
-            FRAME_1: "frame 1",
-            FRAME_2: "frame 2"
+            BUTTON_SUBMIT: "absenden",
+            FRAME_1: "bild 1",
+            FRAME_2: "bild 2"
         },
         ane = {
-            DONE_TEXT: "thanks! stand by to see results."
+            DONE_TEXT: "danke! es geht gleich weiter."
         },
         one = {
-            DOUBLEDOWN_USED: "already used",
-            DOUBLEDOWN_PER_ROUND: "(once per round)",
-            DOUBLEDOWN_PER_GAME: "(once per game)",
+            DOUBLEDOWN_USED: "bereits eingelöst",
+            DOUBLEDOWN_PER_ROUND: "(einmal pro runde)",
+            DOUBLEDOWN_PER_GAME: "(einmal pro spiel)",
             DOUBLEDOWN_TEXT: "double down?"
         },
         lne = {

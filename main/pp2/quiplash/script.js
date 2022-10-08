@@ -12580,7 +12580,7 @@ class ni {
                 TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                 TV_SENTRY_RATE: "0.2",
                 TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                TV_TWITCH_CLIENT_ID: "32ghgheygev2ibgh1tiizcphlt8ll3",
                 BASE_URL: "https://bundles.jackbox.tv/main/pp2-quiplash/",
                 MODE: "production",
                 DEV: !1,
@@ -16807,8 +16807,8 @@ const VC = Et.View.extend({
         },
         onRoomWasDestroyed() {
             en.remove("roomCode"), en.remove("reconnect"), kt.show("error", {
-                titleText: "Disconnected",
-                text: "Thanks for playing!",
+                titleText: "Verbindung getrennt",
+                text: "Danke für's spielen!",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16816,8 +16816,8 @@ const VC = Et.View.extend({
         },
         onDisconnected() {
             kt.show("error", {
-                titleText: "Disconnected",
-                text: "You have been disconnected.",
+                titleText: "Verbindung getrennt",
+                text: "Deine Verbindung wurde getrennt.",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16886,28 +16886,28 @@ const VC = Et.View.extend({
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Lehn dich zurück und entspanne!",
+                vip_waiting: "Warte auf die anderen Spieler",
+                vip_canStart: "Drücke diesen Knopf, wenn alle bereit sind",
+                vip_cancel: "Drücke diesen Knopf, um den Spielstart abzubrechen",
+                vip_postgame: "Was möchtet ihr jetzt machen?",
+                vip_episodes_menu: "Episoden Menü",
+                vip_episodes_unload: "Episode deaktivieren",
+                vip_episodes_report: "Episode melden",
+                vip_episodes_warning: "Warnung: Nutzergenerierte Inhalte werden nicht geprüft",
+                vip_episodes_load: "Lade Episode mit ID:",
+                vip_episodes_select: "Oder wähle eine Episode:",
+                vip_episodes_back: "Zurück",
+                vip_episodes_submit: "senden",
+                vip_episodes_view_author: "Autor anzeigen",
+                button_start: "Alle Bereit",
+                button_cancel: "Abbrechen",
+                button_changename: "Name ändern",
+                button_sameplayers: "Gleiche Spieler",
+                button_newplayers: "Andere Spieler",
+                prompt_entername: "Gib deinen Namen ein",
+                prompt_choosecharacter: "Wähle deinen Charakter",
+                button_censorOptions: "Zensur Einstellungen",
                 censor_prompt: ""
             }
         }
@@ -17346,8 +17346,8 @@ const VC = Et.View.extend({
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Verbindung getrennt",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Danke für's spielen!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -21035,10 +21035,10 @@ const $x = Et.View.extend({
             <div class="container">\r
                 <br /><span id="quiplash-lobby-text"></span><br />\r
                 <form class="pure-form">                    \r
-                    <button type="button" id="quiplash-startgame" class="button-quiplash button-xlarge pure-button pure-input-1">EVERYBODY'S IN</button>\r
-                    <button type="button" id="quiplash-stopcountdown" class="button-quiplash  button-xlarge pure-button pure-input-1">CANCEL</button>\r
-                    <button type="button" id="quiplash-sameplayers" class="button-quiplash  button-xlarge pure-button pure-input-1 quiplash-endbuttons">SAME PLAYERS</button>\r
-                    <button type="button" id="quiplash-newplayers" class="button-quiplash  button-xlarge pure-button pure-input-1 quiplash-endbuttons">NEW PLAYERS</button>    \r
+                    <button type="button" id="quiplash-startgame" class="button-quiplash button-xlarge pure-button pure-input-1">ALLE BEREIT</button>\r
+                    <button type="button" id="quiplash-stopcountdown" class="button-quiplash  button-xlarge pure-button pure-input-1">ABBRECHEN</button>\r
+                    <button type="button" id="quiplash-sameplayers" class="button-quiplash  button-xlarge pure-button pure-input-1 quiplash-endbuttons">GLEICHE SPIELER</button>\r
+                    <button type="button" id="quiplash-newplayers" class="button-quiplash  button-xlarge pure-button pure-input-1 quiplash-endbuttons">ANDERE SPIELER</button>    \r
                 </form>\r
             </div>\r
         </div>\r
@@ -21066,10 +21066,10 @@ const $x = Et.View.extend({
                 <span id="quiplash-submit-alert" class="alert alert-info">Alert message goes here</span>\r
                 <form class="pure-form" id="quiplash-answer-field">\r
                     <div class="pure-u-1">\r
-                        <input id="quiplash-answer-input" name="quiplash-answer" class="pure-input-1 capitalize jbg-input quiplash-answer-input" type="text" maxlength="45" placeholder="ANSWER HERE" autocapitalize="off" autocorrect="off" autocomplete="off">\r
+                        <input id="quiplash-answer-input" name="quiplash-answer" class="pure-input-1 capitalize jbg-input quiplash-answer-input" type="text" maxlength="45" placeholder="HIER ANTWORTEN" autocapitalize="off" autocorrect="off" autocomplete="off">\r
                     </div>\r
                     <button type="submit" id="quiplash-submit-answer" class="button-quiplash button-large pure-button capitalize right">\r
-                        <i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send\r
+                        <i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Senden\r
                     </button>\r
                     <div id="quiplash-submit-answer-loading" style="display:none;" class="button-quiplash-loading"></div>            \r
                 </form>\r
@@ -21078,7 +21078,7 @@ const $x = Et.View.extend({
         </div>    \r
         \r
         <div id="state-done-answering" class="pt-page-off quiplash-page">\r
-            <br/><span>Thanks for your answers!</span><br/>\r
+            <br/><span>Danke für deine Antworten!</span><br/>\r
         </div>\r
         \r
         <div id="state-vote" class="pt-page-off quiplash-page">\r
@@ -21138,11 +21138,11 @@ const Hx = VC.extend({
                 return
             }
             if (this.hideLobbyButtons(), !e.isAllowedToStartGame) {
-                Ce("#quiplash-lobby-text").html("Sit back and relax!"), this.showScreen("#state-lobby");
+                Ce("#quiplash-lobby-text").html("Lehne dich zurück und entspanne!"), this.showScreen("#state-lobby");
                 return
             }
             const v = t.lobbyState;
-            v === "WaitingForMore" ? Ce("#quiplash-lobby-text").html("Waiting for all players to join") : v === "CanStart" ? (Ce("#quiplash-lobby-text").html("Press this button when everybody has joined"), Ce("#quiplash-startgame").show()) : v === "Countdown" ? (Ce("#quiplash-lobby-text").html("Press this button to cancel game start"), Ce("#quiplash-stopcountdown").show()) : v === "PostGame" && (Ce("#quiplash-lobby-text").html("What do you want to do?"), Ce(".quiplash-endbuttons").show()), this.showScreen("#state-lobby")
+            v === "WaitingForMore" ? Ce("#quiplash-lobby-text").html("Warte, bis alle Spieler beigetreten sind") : v === "CanStart" ? (Ce("#quiplash-lobby-text").html("Drücke diesen Knopf, wenn alle beigetreten sind"), Ce("#quiplash-startgame").show()) : v === "Countdown" ? (Ce("#quiplash-lobby-text").html("Drücke diesen Knopf um den Spielstart abzubrechen"), Ce("#quiplash-stopcountdown").show()) : v === "PostGame" && (Ce("#quiplash-lobby-text").html("Was möchtet ihr jetzt machen?"), Ce(".quiplash-endbuttons").show()), this.showScreen("#state-lobby")
         } else if (i === "Gameplay_Logo") this.showScreen("#state-logo");
         else if (i === "Gameplay_Round") {
             const v = new URL(Object.assign({
@@ -21159,18 +21159,18 @@ const Hx = VC.extend({
                 }
                 if (this.currentAnswerQuestionId !== e.question.id && (Ce("#quiplash-answer-input").val(""), Ce("#quiplash-answer-field").show(), Ce("#quiplash-submit-alert").hide(), Ce("#state-answer-question #question-text").html(e.question.prompt.replace(/<BLANK>/gi, "________"))), e.showError) {
                     const v = Ce("#quiplash-submit-alert");
-                    Ce("#quiplash-submit-alert").html("You entered the same thing as someone else! Try again."), v.addClass("alert-info"), v.removeClass("alert-danger"), v.show()
+                    Ce("#quiplash-submit-alert").html("Du hast das gleiche wie jemand anderes eingegeben. Versuche es nochmal."), v.addClass("alert-info"), v.removeClass("alert-danger"), v.show()
                 }
                 this.currentAnswerQuestionId = e.question.id, this.showScreen("#state-answer-question")
-            } else Ce(".state-answer-question-audience-text").html("You\u2019re in the audience! Wait for the time to vote."), this.showScreen("#state-answer-question-audience");
+            } else Ce(".state-answer-question-audience-text").html("Du bist im Publikum! Warte, bis du abstimmen kannst."), this.showScreen("#state-answer-question-audience");
         else if (i === "Gameplay_Vote") {
             if (e.doneVoting) {
-                Ce("#vote-text").html("Wait for the other players!"), Ce("#quiplash-vote").html(""), this.showScreen("#state-vote");
+                Ce("#vote-text").html("Warte auf die anderen Spieler!"), Ce("#quiplash-vote").html(""), this.showScreen("#state-vote");
                 return
             }
             t.question ? Ce("#state-vote #question-text").html(t.question.prompt.replace(/<BLANK>/gi, "________")) : Ce("#state-vote #question-text").html("");
             let v = "";
-            e.votesLeft > 1 ? v = " votes left" : e.votesLeft === 1 && (v = " vote left"), Ce("#vote-text").html(e.votesLeft ? `You have ${e.votesLeft}${v}` : "Which one do you like more?");
+            e.votesLeft > 1 ? v = " Stimmen übrig" : e.votesLeft === 1 && (v = " Stimme übrig"), Ce("#vote-text").html(e.votesLeft ? `Du hast ${e.votesLeft}${v}` : "Welche gefällt dir besser?");
             let S = "";
             if (t.choices && t.order)
                 for (let k = 0; k < t.order.length; k++) {
@@ -21217,7 +21217,7 @@ const Hx = VC.extend({
         const t = this.sanitize(Ce("#quiplash-answer-input").val()).toUpperCase();
         if (t.length === 0) {
             const e = Ce("#quiplash-submit-alert");
-            return Ce("#quiplash-submit-alert").html("You can't enter nothing!"), e.removeClass("alert-info"), e.addClass("alert-danger"), e.show(), !1
+            return Ce("#quiplash-submit-alert").html("Du musst etwas eingeben!"), e.removeClass("alert-info"), e.addClass("alert-danger"), e.show(), !1
         }
         return this.client.send("SendMessageToRoomOwner", {
             answer: t,
@@ -21231,7 +21231,7 @@ const Hx = VC.extend({
         }) : this.client.isRole("audience") && (this.client.sessionSend("vote", "Quiplash Vote", {
             type: "vote",
             vote: e
-        }), Ce("#vote-text").html("Thanks, audience member!"), Ce("#quiplash-vote").html(""), this.showScreen("#state-vote")), !1
+        }), Ce("#vote-text").html("Danke, Person im Publikum!"), Ce("#quiplash-vote").html(""), this.showScreen("#state-vote")), !1
     },
     newGameSamePlayers() {
         return this.client.send("SendMessageToRoomOwner", {
