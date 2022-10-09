@@ -26358,7 +26358,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 .everyday .info-bar.emergency .info-text:after {
-    content: "!!! EMERGENCY !!!";
+    content: "!!! NOTFALL !!!";
     position: absolute;
     top: 0;
     left: 0;
