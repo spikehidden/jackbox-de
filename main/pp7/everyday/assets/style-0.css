@@ -28001,7 +28001,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 .everyday .gizmos .gizmo-panel.interactive:after {
-    content: "TAP ON EACH GIZMO TO CHANGE";
+    content: "AUF EIN ELEMENT TIPPEN, UM ES ANZUPASSEN";
     position: absolute;
     bottom: 2px;
     left: 0%;
