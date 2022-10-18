@@ -25618,7 +25618,7 @@ ${t}`
         ine = {
             DONE: "danke für deine antwort. wir sagen dir bescheid, wenn es das publikum richtig hat.",
             BUTTON_SUBMIT: "senden",
-            FRIEND_HINT: "psstâ€¦ er/seine sind die vom spiel verwendeten pronomen",
+            FRIEND_HINT: "psst\u2026 er/seine sind die vom spiel verwendeten pronomen",
             PROMPT: "schreibe einen titel, der die anderen austrickst",
             FILTER_ERROR: "das kannst du leider nicht schreiben! (du kannst die filter-einstellungen in den optionen anpassen)"
         },
@@ -25634,7 +25634,7 @@ ${t}`
             DOUBLEDOWN_USED: "bereits eingelöst",
             DOUBLEDOWN_PER_ROUND: "(einmal pro runde)",
             DOUBLEDOWN_PER_GAME: "(einmal pro spiel)",
-            DOUBLEDOWN_TEXT: "double down?"
+            DOUBLEDOWN_TEXT: "doppelter einsatz?"
         },
         lne = {
             LOBBY: tne,
