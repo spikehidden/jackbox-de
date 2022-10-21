@@ -17471,7 +17471,7 @@ const qC = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
+                your_choice: "Deine Auswahl: ",
                 censor_prompt: "Censor this?",
                 censor_confirm: "Yes, Censor!",
                 censor_cancel: "No!"
@@ -17613,7 +17613,7 @@ const qC = `<div id="controller" class="state-controller controller-content">
             })), !1
         },
         displayAudienceChoice(t) {
-            let e = "Thank you.";
+            let e = "Danke.";
             const n = t.map(o => {
                 const r = this.choicesList.children.find(V => V.model.get("index") === o);
                 return r ? r.model.get("html") || r.model.get("text") : ""
@@ -19082,7 +19082,7 @@ const tR = `<div id="controller" class="state-controller controller-content">\r
             doneText: {},
             announcePrompt: !1,
             strings: {
-                your_choice: "Thank you. Your choice: ",
+                your_choice: "Deine Auswahl: ",
                 censor_prompt: "Censor this?",
                 censor_confirm: "Yes, Censor!",
                 censor_cancel: "No!"
@@ -24013,7 +24013,7 @@ const Jy = {
             tapsRequired: 35,
             waitInMs: 250,
             scene: "AudienceSpawnScratchChair",
-            successTitle: "Stuhl zerstört!",
+            successTitle: "Sessel zerstört!",
             successText: "Jetzt wird dich garantiert jemand ausschimpfen"
         },
         KNOCK_ITEMS: {
