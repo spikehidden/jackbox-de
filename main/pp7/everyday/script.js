@@ -24283,14 +24283,23 @@ const Jy = {
             ...qr.prototype.regions,
             picker: "#picker-region"
         },
-        onRender() {
-            this.model.get("episodes") && !this.pickerView && (this.pickerView = new tS, this.showChildView("picker", this.pickerView)), qr.prototype.onRender.apply(this)
+        initialize() {
+            this.listenTo(this.model, "change:episodes", this.onEpisodes);
+            qr.prototype.initialize.apply(this);
         },
-        update() {
+        onEpisodes() {
+            if (!this.model.get("episodes")) return;
+            if (!this.pickerView) {
+                this.pickerView = new tS;
+                this.setEpisodes();
+                this.showChildView("picker", this.pickerView);
+            } else this.setEpisodes();
+        },
+        setEpisodes() {
             const t = this.model.get("episodes");
-            t && this.pickerView && (t[0].score === void 0 && this.scoreEpisodes(t), t.sort((e, n) => e.score - n.score), this.pickerView.model.set({
+            t[0].score === void 0 && this.scoreEpisodes(t), t.sort((e, n) => e.score - n.score), this.pickerView.model.set({
                 episodes: t
-            })), qr.prototype.update.apply(this)
+            })
         },
         scoreEpisodes(t) {
             t.forEach((e, n) => {
