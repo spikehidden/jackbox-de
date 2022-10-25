@@ -10412,7 +10412,7 @@ ${r.message}`,
             BUTTON_DONE: "Los geht's!"
         },
         W4 = {
-            NAME: "AUDIENCE"
+            NAME: "PUBLIKUM"
         },
         K4 = {
             EPISODE_REPORT: "Episode melden",
@@ -26515,7 +26515,7 @@ ${t}`
             data() {
                 return {
                     audienceInfo: {
-                        name: "AUDIENCE"
+                        name: "PUBLIKUM"
                     }
                 }
             },

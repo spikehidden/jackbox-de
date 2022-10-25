@@ -25548,7 +25548,7 @@ ${t}`
                 })
             })
         },
-        pne = "sent",
+        pne = "gesendet",
         gne = {
             SLIDE_0_TITLE: "In Weapons Drawn ist jeder Spieler zugleich Mörder und Detektiv.",
             SLIDE_0_ITEM_1: "Ermorde Gäste der anderen Spieler.",
