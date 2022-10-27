@@ -24871,7 +24871,7 @@ ${t}`
             APPROVE_ALL: "Alles erlauben",
             REJECT_ALL: "Alles ablehnen"
         },
-        Lte = {
+        wte = {
             ROOM_DESTROYED: "Danke für deine Hilfe!"
         },
         Rte = {
