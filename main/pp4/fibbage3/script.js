@@ -17136,7 +17136,7 @@ const UC = `<div id="controller" class="state-controller controller-content">
                             inputAttributes: {
                                 maxlength: 12
                             },
-                            inputValidator: f => f ? f.length > 12 ? "Limit 12 characters" : null : "You need to write something!"
+                            inputValidator: f => f ? f.length > 12 ? "Limit 12 characters" : null : "Du musst etwas eingeben!"
                         });
                         if (a.dismiss) return;
                         this.triggerMethod("client:message", {
@@ -21283,7 +21283,7 @@ const Gx = xt.View.extend({
             this.shouldSubmit && this.onChildviewInputSubmit()
         },
         update() {
-            rs.prototype.update.apply(this), this.model.get("requireLie") === !0 && this.inputComponent.model.set("answerDelim", "Write one LIE about yourself."), this.inputComponent.model.set("doubleInput", this.model.get("requireLie") || this.model.get("doubleInput")), this.inputComponent.model.set("canUseSuggestions", this.model.get("canUseSuggestions")), this.inputComponent.model.set("usedSuggestion", this.model.get("usedSuggestion")), this.inputComponent.model.set("question", this.model.get("question")), this.model.get("entry") && this.model.get("entry").length > 0 ? this.buttonsCollection.reset() : this.model.get("suggestions") && this.buttonsCollection.set(this.model.get("suggestions").map(t => ({
+            rs.prototype.update.apply(this), this.model.get("requireLie") === !0 && this.inputComponent.model.set("answerDelim", "Schreibe eine LÜGE über dich selbst."), this.inputComponent.model.set("doubleInput", this.model.get("requireLie") || this.model.get("doubleInput")), this.inputComponent.model.set("canUseSuggestions", this.model.get("canUseSuggestions")), this.inputComponent.model.set("usedSuggestion", this.model.get("usedSuggestion")), this.inputComponent.model.set("question", this.model.get("question")), this.model.get("entry") && this.model.get("entry").length > 0 ? this.buttonsCollection.reset() : this.model.get("suggestions") && this.buttonsCollection.set(this.model.get("suggestions").map(t => ({
                 block: !0,
                 text: t
             })))

@@ -21107,7 +21107,7 @@ const Xx = Px.extend({
     },
     parseBlob(t) {
         const e = t;
-        if (e.classes = e.classes || [], e.playerInfo = e.playerInfo || {}, e.playerInfo.classes = e.playerInfo.classes || [], e.playerInfo.avatar = e.playerInfo.avatar || "Avatar_Other", e.playerInfo.classes.push(e.playerInfo.color), e.isAudience && (e.playerInfo.avatar = "Avatar_A", e.playerInfo.username = "PUBLIKUM"), e.playerInfo.username) {
+        if (e.classes = e.classes || [], e.playerInfo = e.playerInfo || {}, e.playerInfo.classes = e.playerInfo.classes || [], e.playerInfo.avatar = e.playerInfo.avatar || "Avatar_Other", e.playerInfo.classes.push(e.playerInfo.color), e.isAudience && (e.playerInfo.avatar = "Avatar_P", e.playerInfo.username = "PUBLIKUM"), e.playerInfo.username) {
             const n = e.playerInfo.username.length;
             this.fullNameLength = this.fullNameLength || n, this.fullNameLength === n && (e.playerInfo.username = e.playerInfo.username.slice(1))
         }
