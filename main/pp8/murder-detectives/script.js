@@ -10877,7 +10877,7 @@ ${n.message}`,
             BUTTON_DONE: "Los geht's!"
         },
         hW = {
-            NAME: "AUDIENCE"
+            NAME: "PUBLIKUM"
         },
         pW = {
             EPISODE_REPORT: "Episode melden",
