@@ -2,12 +2,6 @@
     "bannerAds": [
         {
             "start": "2020-10-15",
-            "text": "Jetzt auf Deutsch!",
-            "src": "banners/wd.png",
-            "href": "https://jackboxpatch.de/#jbppp"
-        },
-        {
-            "start": "2020-10-15",
             "text": "Der JBPPP Launcher",
             "src": "banners/jbppp.png",
             "href": "https://jackboxpatch.de/#jbppp"
@@ -28,7 +22,7 @@
             "start": "2020-10-15",
             "text": "Noch unsicher?",
             "src": "banners/empfehlungen.png",
-            "href": "https://jackboxpatch.de/Empfehlungen.html"
+            "href": "https://jackboxpatch.de/%C3%9Cbersicht.html"
         },
         {
             "start": "2020-10-15",
