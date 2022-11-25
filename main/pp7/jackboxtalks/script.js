@@ -16545,8 +16545,8 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             inlineSubmitText: "Submit",
             error: "",
             strings: {
-                ERROR_NOTHING_ENTERED: "You need to enter something!",
-                ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                ERROR_NOTHING_ENTERED: "Du musst etwas eingeben!",
+                ERROR_REJECTED_TEXT: "Das kannst du nicht schreiben. Schreib etwas anderes! (You can change the level of filtering in the game's settings menu)"
             }
         }
     }),
