@@ -16525,7 +16525,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         defaults: {
             state: "EnterSingleText",
             actions: [{
-                text: "submit",
+                text: "senden",
                 action: "submit"
             }],
             allowEmpty: !1,
@@ -16542,7 +16542,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             autocapitalize: !1,
             className: "",
             inlineSubmit: !1,
-            inlineSubmitText: "Submit",
+            inlineSubmitText: "Senden",
             error: "",
             strings: {
                 ERROR_NOTHING_ENTERED: "Du musst etwas eingeben!",
@@ -16616,7 +16616,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }), this.inputComponent = this.inputComponent || new ds({
                 model: new Ke.Model({})
             }), this.buttonsCollection = this.buttonsCollection || new Ke.Collection([{
-                text: "submit"
+                text: "senden"
             }]), this.buttonsComponent = this.buttonsComponent || new Un({
                 block: !0,
                 collection: this.buttonsCollection
@@ -16629,7 +16629,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             })), this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.inputComponent.model.set(this.model.attributes), this.buttonsComponent.options.block = this.model.get("block"), this.buttonsCollection.set(this.model.get("actions") || [{
-                text: "submit",
+                text: "senden",
                 action: "submit"
             }]), this.model.get("entryId") && this.model.get("entryId") !== this.currentEntry && (this.inputComponent.clearInput(), this.currentEntry = this.model.get("entryId")), this.$el.find(".enterSingleTextFieldset").prop("disabled", !1), this.$el.find("textarea").focus(), this.stickit(), this.model.get("autoSubmit") && this.shouldSubmit && this.onChildviewInputSubmit()
         },
@@ -17560,7 +17560,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
             this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), this.model.get("type") === "multiple" && qe.all(this.model.get("choices"), t => !t.disabled) && this.choicesList.collection.push({
-                text: "Submit",
+                text: "Senden",
                 action: "submit",
                 block: !1
             }), this.model.get("isAudience") && ((this.model.get("choiceId") === void 0 || this.model.get("choiceId") !== this.getOption("choiceId")) && (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && (this.model.get("type") === "multiple" ? this.choicesList.children.forEach(t => {
@@ -21496,7 +21496,7 @@ const zx = ft.View.extend({
     </div>    
 </div>
 <div class="submitRegion footer">
-    <button class="submit">SUBMIT</button>
+    <button class="submit">SENDEN</button>
 </div>`,
     c1 = Tn.extend({
         defaults: {
