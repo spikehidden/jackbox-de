@@ -17467,10 +17467,10 @@ const $k = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
-                censor_prompt: "Censor this?",
-                censor_confirm: "Yes, Censor!",
-                censor_cancel: "No!"
+                your_choice: "Vielen Dank. Ihre Wahl: ",
+                censor_prompt: "Dies zensieren?",
+                censor_confirm: "Ja, zensieren!",
+                censor_cancel: "Nein!"
             }
         }
     }),
@@ -17556,7 +17556,7 @@ const $k = `<div id="controller" class="state-controller controller-content">
             this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), this.model.get("type") === "multiple" && Je.all(this.model.get("choices"), t => !t.disabled) && this.choicesList.collection.push({
-                text: "Submit",
+                text: "Senden",
                 action: "submit",
                 block: !1
             }), this.model.get("isAudience") && ((this.model.get("choiceId") === void 0 || this.model.get("choiceId") !== this.getOption("choiceId")) && (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && (this.model.get("type") === "multiple" ? this.choicesList.children.forEach(t => {
@@ -17609,7 +17609,7 @@ const $k = `<div id="controller" class="state-controller controller-content">
             })), !1
         },
         displayAudienceChoice(t) {
-            let e = "Thank you.";
+            let e = "Vielen Dank.";
             const n = t.map(a => {
                 const f = this.choicesList.children.find(y => y.model.get("index") === a);
                 return f ? f.model.get("html") || f.model.get("text") : ""
@@ -19078,10 +19078,10 @@ const CC = `<div id="controller" class="state-controller controller-content">\r
             doneText: {},
             announcePrompt: !1,
             strings: {
-                your_choice: "Thank you. Your choice: ",
-                censor_prompt: "Censor this?",
-                censor_confirm: "Yes, Censor!",
-                censor_cancel: "No!"
+                your_choice: "Vielen Dank. Ihre Wahl: ",
+                censor_prompt: "Dies zensieren?",
+                censor_confirm: "Ja, zensieren!",
+                censor_cancel: "Nein!"
             }
         }
     }),
@@ -21285,7 +21285,7 @@ const JC = ["Zimtrolle", "Muttis Kind", "Boingo", "Spritzgebäck", "Hochstapler"
             }
         },
         parseBlob(t) {
-            t = Me.extend(!0, {}, t), this.client.isRole("audience") && (t.playerInfo = t.playerInfo || {}, t.playerInfo.username = "Audience", this.ydkjaudiencename && (t.playerInfo.username = this.ydkjaudiencename)), t.classes = t.classes || [], t.roundType === "Gibberish" && (t.counter = !1, t.block = !1), t.state === "MakeSingleChoice" && (Object.prototype.hasOwnProperty.call(t, "chosen") && (t.state = "Logo"), t.roundType === "DisOrDat" && (t.block = !1), t.roundType === "JackAttack" && (t.state = "JackAttack"), t.activeScrew && t.activeScrew.name ? (t.activeScrew.intro ? (t.state = "Screw", t.roundType = "Screw") : t.activeScrew.behaviorData && (t.activeScrew.behaviorData.isScreensaver && t.classes.push("screensaver"), t.activeScrew.behaviorData.isFlipped && t.classes.push("flipped"), t.activeScrew.behaviorData.isMirrored && t.classes.push("mirrored"), t.activeScrew.behaviorData.isTos && !this.hasActiveScrew && !t.activeScrew.behaviorData.accepted && (this.hasActiveScrew = !0, mn.fire({
+            t = Me.extend(!0, {}, t), this.client.isRole("audience") && (t.playerInfo = t.playerInfo || {}, t.playerInfo.username = "Publikum", this.ydkjaudiencename && (t.playerInfo.username = this.ydkjaudiencename)), t.classes = t.classes || [], t.roundType === "Gibberish" && (t.counter = !1, t.block = !1), t.state === "MakeSingleChoice" && (Object.prototype.hasOwnProperty.call(t, "chosen") && (t.state = "Logo"), t.roundType === "DisOrDat" && (t.block = !1), t.roundType === "JackAttack" && (t.state = "JackAttack"), t.activeScrew && t.activeScrew.name ? (t.activeScrew.intro ? (t.state = "Screw", t.roundType = "Screw") : t.activeScrew.behaviorData && (t.activeScrew.behaviorData.isScreensaver && t.classes.push("screensaver"), t.activeScrew.behaviorData.isFlipped && t.classes.push("flipped"), t.activeScrew.behaviorData.isMirrored && t.classes.push("mirrored"), t.activeScrew.behaviorData.isTos && !this.hasActiveScrew && !t.activeScrew.behaviorData.accepted && (this.hasActiveScrew = !0, mn.fire({
                 customClass: {
                     popup: "binjpipeTos"
                 },

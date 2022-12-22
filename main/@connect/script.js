@@ -24460,7 +24460,7 @@ ${t}`
             ROOM_CODE: "RAUMCODE",
             ROOM_CODE_PLACEHOLDER: "GIB DEN 4-STELLIGEN CODE EIN"
         },
-        yee = "Link to Jackbox Games Homepage",
+        yee = "Link zu Jackbox Games Homepage",
         bee = {
             APPEARANCE: "ANSICHT",
             DARK: "dunkel",

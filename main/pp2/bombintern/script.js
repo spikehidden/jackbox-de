@@ -13880,7 +13880,7 @@ var ih = {
                 confirmButtonText: "OK",
                 confirmButtonAriaLabel: "",
                 confirmButtonColor: void 0,
-                denyButtonText: "No",
+                denyButtonText: "Nein",
                 denyButtonAriaLabel: "",
                 denyButtonColor: void 0,
                 cancelButtonText: "Cancel",
@@ -13894,7 +13894,7 @@ var ih = {
                 returnFocus: !0,
                 showCloseButton: !1,
                 closeButtonHtml: "&times;",
-                closeButtonAriaLabel: "Close this dialog",
+                closeButtonAriaLabel: "Dialog schließen",
                 loaderHtml: "",
                 showLoaderOnConfirm: !1,
                 showLoaderOnDeny: !1,
@@ -15667,8 +15667,8 @@ const kC = `<div class="canvasContainer">\r
                     <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
                 </svg>
             `,
-                cancelButton: "Cancel",
-                confirmButton: "Confirm"
+                cancelButton: "Abbrechen",
+                confirmButton: "Bestätigen"
             }
         }
     }),
@@ -21064,8 +21064,8 @@ const qx = Et.View.extend({
             <div class="container">\r
                 <div class='bomb-header'><span id="bombintern-lobby-text"></span></div>\r
                 <form class="pure-form">\r
-                    <button type="button" id="bombintern-startgame" class="button-bombintern button-xlarge pure-button pure-input-1">START</button>\r
-                    <button type="button" id="bombintern-stopcountdown" class="button-bombintern  button-xlarge pure-button pure-input-1">CANCEL</button>\r
+                    <button type="button" id="bombintern-startgame" class="button-bombintern button-xlarge pure-button pure-input-1">STARTEN</button>\r
+                    <button type="button" id="bombintern-stopcountdown" class="button-bombintern  button-xlarge pure-button pure-input-1">ABBRECHEN</button>\r
                 </form>\r
             </div>\r
         </div>\r
@@ -21074,9 +21074,9 @@ const qx = Et.View.extend({
             <div class="container">\r
                 <div class='bomb-header'><span id="bombintern-dayend-text"></span></div>\r
                 <form class="pure-form">\r
-                    <button type="button" id="bombintern-nextday" class="button-bombintern button-xlarge pure-button pure-input-1">NEXT DAY</button>\r
-                    <button type="button" id="bombintern-retryday" class="button-bombintern button-xlarge pure-button pure-input-1">RETRY DAY</button>\r
-                    <button type="button" id="bombintern-menuday" class="button-bombintern  button-xlarge pure-button pure-input-1">MENU</button>\r
+                    <button type="button" id="bombintern-nextday" class="button-bombintern button-xlarge pure-button pure-input-1">NÄCHSTER TAG</button>\r
+                    <button type="button" id="bombintern-retryday" class="button-bombintern button-xlarge pure-button pure-input-1">TAG NEU STARTEN</button>\r
+                    <button type="button" id="bombintern-menuday" class="button-bombintern  button-xlarge pure-button pure-input-1">MENÜ</button>\r
                 </form>\r
             </div>\r
         </div>\r
@@ -21085,8 +21085,8 @@ const qx = Et.View.extend({
             <div class="container">\r
                 <div class='bomb-header'><span id="bombintern-gameover-text"></span></div>\r
                 <form class="pure-form">\r
-                    <button type="button" id="bombintern-retry" class="button-bombintern button-xlarge pure-button pure-input-1">RETRY</button>\r
-                    <button type="button" id="bombintern-menu" class="button-bombintern  button-xlarge pure-button pure-input-1">MENU</button>\r
+                    <button type="button" id="bombintern-retry" class="button-bombintern button-xlarge pure-button pure-input-1">ERNEUT VERSUCHEN</button>\r
+                    <button type="button" id="bombintern-menu" class="button-bombintern  button-xlarge pure-button pure-input-1">MENÜ</button>\r
                 </form>\r
                 <div id='bombintern-container-top'></div>\r
                 <div id="bombintern-gameover-rules"></div>\r
@@ -21187,16 +21187,16 @@ const m1 = GC.extend({
             case "Lobby":
                 switch (this.$el.find("#bombintern-startgame").hide(), this.$el.find("#bombintern-stopcountdown").hide(), a) {
                     case "WaitingForMore":
-                        this.$el.find("#bombintern-lobby-text").html("Waiting for all players to join"), this.showScreen(".state-lobby");
+                        this.$el.find("#bombintern-lobby-text").html("Warte, bis alle Spieler beigetreten sind"), this.showScreen(".state-lobby");
                         break;
                     case "CanStart":
-                        this.$el.find("#bombintern-lobby-text").html("Press this button when everybody has joined"), this.$el.find("#bombintern-startgame").show(), this.showScreen(".state-lobby");
+                        this.$el.find("#bombintern-lobby-text").html("Drücke diesen Knopf, wenn alle Spieler bereit sind"), this.$el.find("#bombintern-startgame").show(), this.showScreen(".state-lobby");
                         break;
                     case "Countdown":
-                        this.$el.find("#bombintern-lobby-text").html("Press this button to cancel game start"), this.$el.find("#bombintern-stopcountdown").show(), this.showScreen(".state-lobby");
+                        this.$el.find("#bombintern-lobby-text").html("Drücke diesen Knopf, um den Spielstart abzubrechen"), this.$el.find("#bombintern-stopcountdown").show(), this.showScreen(".state-lobby");
                         break;
                     case "WaitingToStart":
-                        this.$el.find("#bombintern-lobby-text").html("Waiting for the game to start"), this.showScreen(".state-lobby");
+                        this.$el.find("#bombintern-lobby-text").html("Warte auf den Spielstart"), this.showScreen(".state-lobby");
                         break
                 }
                 break;
@@ -21210,7 +21210,7 @@ const m1 = GC.extend({
                 switch (Ae(".bombintern-rules").html(""), this.lastPuzzle = a, a) {
                     case "SmashPuzzle":
                         if (this.$el.find("#bombintern-smashpuzzle-triggers").html(""), this.buildRuleFolder(a, "bombintern-smashpuzzle-rules"), i.smasher === !0) {
-                            t = "<div class='bomb-header' id='button-header'><span>PRESS BELOW TO SMASH SOMETHING</span></div>";
+                            t = "<div class='bomb-header' id='button-header'><span>KLICKE, UM ETWAS ZU ZERSTÖREN:</span></div>";
                             for (let _ = 0; _ < i.triggers.length; ++_) {
                                 const S = i.triggers[_];
                                 t += `<button type='button' data-param='${S.object}' class='pure-input-1 bombintern-smashpuzzle-button button-large pure-button button-bombintern' ${S.hasBeenSmashed?"disabled":""}>${S.object}</button>`
@@ -21221,10 +21221,10 @@ const m1 = GC.extend({
                         break;
                     case "WiredBomb":
                         if (this.$el.find("#bombintern-wiredbomb-triggers").html(""), this.buildRuleFolder(a, "bombintern-wiredbomb-rules"), i.triggers && i.triggers.length > 0) {
-                            t = "<div class='bomb-header' id='button-header'><span>TAP BUTTONS TO CUT WIRES</span></div>";
+                            t = "<div class='bomb-header' id='button-header'><span>KLICKE, UM KABEL ZU DURCHTRENNEN</span></div>";
                             for (let _ = 0; _ < i.triggers.length; ++_) {
                                 const S = i.triggers[_],
-                                    O = S.name || "Wire";
+                                    O = S.name || "Kabel";
                                 t += `<button type='button' ${S.hasBeenCut?"disabled":""} data-param='${S.index}' class='pure-input-1 bombintern-wiredbomb-button button-large pure-button button-bombintern'>${O} ${S.index}</button>`
                             }
                             this.$el.find("#bombintern-wiredbomb-triggers").html(t)
@@ -21233,18 +21233,18 @@ const m1 = GC.extend({
                         break;
                     case "CoffeeBomb":
                         if (this.$el.find("#bombintern-coffeebomb-triggers").html(""), this.buildRuleFolder(a, "bombintern-coffeebomb-rules"), i.triggers && i.triggers.length > 0) {
-                            t = "<div class='bomb-header' id='button-header'><span>PRESS TO ADD OR REMOVE INGREDIENTS</span></div>";
+                            t = "<div class='bomb-header' id='button-header'><span>KLICKE, UM ZUTATEN HINZUZUGEBEN ODER ZU ENTFERNEN</span></div>";
                             for (let _ = 0; _ < i.triggers.length; ++_) {
                                 const S = i.triggers[_];
                                 t += `<div class='bombinterns-ingredient-controls'><span class='bombinterns-ingredient-name'>${S.ingredient}</span><br />`, t += `<button type='button' data-param='${S.ingredient}' class='pure-input-2 bombintern-coffeebomb-button bombintern-coffeebomb-remove-button button-large pure-button button-bombintern'>-</button>`, t += `<span class = 'bombinterns-ingredient-count'>${S.count}</span>`, t += `<button type='button' data-param='${S.ingredient}' class='pure-input-2 bombintern-coffeebomb-button bombintern-coffeebomb-add-button button-large pure-button button-bombintern'>+</button></div>`
                             }
-                            t += "<div class='bomb-header' id='brew-header'><span>PRESS WHEN READY TO BREW</span></div>", t += "<button type='button' class='pure-input-1 bombintern-coffeebomb-brew-button button-large pure-button button-bombintern'>Brew</button>", this.$el.find("#bombintern-coffeebomb-triggers").html(t)
+                            t += "<div class='bomb-header' id='brew-header'><span>KLICKE, WENN DU KAFFEE KOCHEN MÖCHTEST</span></div>", t += "<button type='button' class='pure-input-1 bombintern-coffeebomb-brew-button button-large pure-button button-bombintern'>Brauen</button>", this.$el.find("#bombintern-coffeebomb-triggers").html(t)
                         }
                         this.showScreen(".state-coffeebomb");
                         break;
                     case "FilingBomb":
                         if (this.$el.find("#bombintern-filingbomb-triggers").html(""), this.buildRuleFolder(a, "bombintern-filingbomb-rules"), i.triggers.length > 0) {
-                            t = "<div id='button-header'<br /><span>PRESS BELOW TO FILE</span><br /></div>";
+                            t = "<div id='button-header'<br /><span>KLICKE, UM ABZUHEFTEN</span><br /></div>";
                             for (let _ = 0; _ < i.triggers.length; ++_) {
                                 const S = i.triggers[_];
                                 t += `<button type='button' ${S.hasBeenFiled?"disabled":""} data-param='${S.fullName}' class='pure-input-1 bombintern-filingbomb-button button-large pure-button button-bombintern'>${S.fullName}</button>`
@@ -21269,7 +21269,7 @@ const m1 = GC.extend({
                         break;
                     case "KeypadBomb":
                         if (this.$el.find("#bombintern-keypadbomb-triggers").html(""), this.buildRuleFolder(a, "bombintern-keypadbomb-rules"), i.triggers && i.triggers.length > 0) {
-                            t = "<div class='bomb-header' id='button-header'><span>Enter a 4-digit keycode:</span></div>";
+                            t = "<div class='bomb-header' id='button-header'><span>Gib den 4-stelligen Code ein:</span></div>";
                             for (let _ = 0; _ < i.triggers.length; ++_) {
                                 const S = i.triggers[_];
                                 let O = S.key;
@@ -21296,10 +21296,10 @@ const m1 = GC.extend({
             case "DayEnd":
                 switch (a) {
                     case "DayEndDecision":
-                        this.$el.find("#bombintern-dayend-text").html("Day Complete!"), this.showScreen(".state-dayend");
+                        this.$el.find("#bombintern-dayend-text").html("Tag geschafft!"), this.showScreen(".state-dayend");
                         break;
                     default:
-                        this.$el.find("#bombintern-message-text").html("Day Complete!"), this.showScreen(".state-message");
+                        this.$el.find("#bombintern-message-text").html("Tag geschafft!"), this.showScreen(".state-message");
                         break
                 }
                 break;
@@ -21405,23 +21405,23 @@ const m1 = GC.extend({
         if (a.rules && a.rules.length > 0 || a.sort && a.sort.length > 0) {
             switch (n += "<div class='bomb-header' id='instruction-header'>", t) {
                 case "SmashPuzzle":
-                    n += "<span>READ INSTRUCTIONS BELOW TO HELP SMASH!</span>";
+                    n += "<span>LIES DIE ANWEISUNGEN, UM BEIM ZERSTÖREN ZU HELFEN!</span>";
                     break;
                 case "WiredBomb":
-                    n += "<span>FOLLOW THE INSTRUCTIONS</span>";
+                    n += "<span>FOLGE DEN ANWEISUNGEN</span>";
                     break;
                 case "CoffeeBomb":
-                    n += "<span>FOLLOW THE INSTRUCTIONS</span>";
+                    n += "<span>FOLGE DEN ANWEISUNGEN</span>";
                     break;
                 case "FilingBomb":
                     break;
                 case "CopierBomb":
                     break;
                 case "KeypadBomb":
-                    n += "<span>FOLLOW THE INSTRUCTIONS</span>";
+                    n += "<span>FOLGE DEN ANWEISUNGEN</span>";
                     break
             }
-            if (n += "</div>", n += "<div class='rules-folder-tab'><span>MANUAL</span></div><div class='rules-folder'>", t === "FilingBomb") n += `<div class='rules-page'><span>${a.sort}</span></div>`;
+            if (n += "</div>", n += "<div class='rules-folder-tab'><span>ANLEITUNG</span></div><div class='rules-folder'>", t === "FilingBomb") n += `<div class='rules-page'><span>${a.sort}</span></div>`;
             else if (t === "CopierBomb")
                 for (let f = 0; f < a.rules.length; ++f) n += "<div class='rules-page copier-rule-page'>", i = a.rules[f], i.header !== "" && (n += `<div class='copier-icon'><img src='${new URL(Object.assign({"../images/AlienBlue.png":Yx,"../images/AlienGreen.png":Kx,"../images/AlienPink.png":Jx,"../images/AlienPurple.png":Qx,"../images/AlienYellow.png":Zx,"../images/GreenDiamond.png":e1,"../images/OrangeArrow.png":t1,"../images/RedCircle.png":n1,"../images/WhiteSquare.png":i1,"../images/YellowTriangle.png":r1,"../images/copier-action.png":s1,"../images/copier-button-down.png":o1,"../images/copier-button.png":a1,"../images/copier-knob-1.png":Cc,"../images/copier-knob-2.png":xc,"../images/copier-knob-3.png":Ec,"../images/copier-knob-4.png":_c,"../images/copier-load.png":l1,"../images/copier-panel-closed.png":c1,"../images/copier-panel-open.png":u1,"../images/jumpbttncutwires.png":h1,"../images/jumpbttnrules.png":d1,"../images/logo.png":f1,"../images/panel_open_alt.png":p1})[`.. / images / $ {
                     i.header
@@ -21431,22 +21431,22 @@ const m1 = GC.extend({
             n += "</div>"
         } else switch (t) {
             case "SmashPuzzle":
-                n += "<div class='bomb-header' id='instruction-header'><span>YOU ARE THE SMASHER!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>DU BIST DER ZERSTÖRER!</span></div>";
                 break;
             case "WiredBomb":
-                n += "<div class='bomb-header' id='instruction-header'><span>YOU ARE THE CUTTER!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>DU BIST DER SCHNIPPLER!</span></div>";
                 break;
             case "CoffeeBomb":
-                n += "<div class='bomb-header' id='instruction-header'><span>YOU ARE THE BREWER!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>DU BIST DER BRAUER!</span></div>";
                 break;
             case "FilingBomb":
-                n += "<div class='bomb-header' id='instruction-header'><span>YOU ARE THE FILER!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>DU BIST DER ABHEFTER!</span></div>";
                 break;
             case "CopierBomb":
-                n += "<div class='bomb-header' id='instruction-header'><span>FIX THE COPIER!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>REPARIERE DEN DRUCKER!</span></div>";
                 break;
             case "KeypadBomb":
-                n += "<div class='bomb-header' id='instruction-header'><span>CRACK THE CODE!</span></div>";
+                n += "<div class='bomb-header' id='instruction-header'><span>KNACKE DEN CODE!</span></div>";
                 break
         }
         this.$el.find(`#${e}`).html(n)
