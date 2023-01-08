@@ -21045,26 +21045,26 @@ const $x = Et.View.extend({
                             </div>\r
                             <div class="row">\r
                                 <div class="col-xs-12">\r
-                                    <button id="fakinit-name-change-confirm" type="submit" class="fakinit-button fakinit-button-secondary pull-right">Submit</button>\r
-                                    <button id="fakinit-name-change-cancel" class="fakinit-button fakinit-button-secondary pull-right">Cancel</button>\r
+                                    <button id="fakinit-name-change-confirm" type="submit" class="fakinit-button fakinit-button-secondary pull-right">Senden</button>\r
+                                    <button id="fakinit-name-change-cancel" class="fakinit-button fakinit-button-secondary pull-right">Abbrechen</button>\r
                                 </div>\r
                             </div>\r
                         </form>\r
-                        <p class="fakinit-name-change-button"><button id="fakinit-name-change" class="fakinit-button fakinit-button-secondary">Change name?</button></p>\r
-                        <p><span class="fakinit-text fakinit-text-instruction fakinit-category-color">We recommend using your own name so people can easily identify you</span></p>\r
+                        <p class="fakinit-name-change-button"><button id="fakinit-name-change" class="fakinit-button fakinit-button-secondary">Name ändern?</button></p>\r
+                        <p><span class="fakinit-text fakinit-text-instruction fakinit-category-color">Wir empfehlen, den eigenen Namen zu verwenden, damit man sich leichter identifizieren kann</span></p>\r
                     </div>\r
                     <form class="pure-form">\r
-                        <button type="button" id="fakinit-startgame" class="fakinit-button btn btn-lg btn-block">EVERYBODY'S IN</button>\r
-                        <button type="button" id="fakinit-stopcountdown" class="fakinit-button btn btn-lg btn-block">CANCEL</button>\r
+                        <button type="button" id="fakinit-startgame" class="fakinit-button btn btn-lg btn-block">ALLE BEREIT</button>\r
+                        <button type="button" id="fakinit-stopcountdown" class="fakinit-button btn btn-lg btn-block">ABBRECHEN</button>\r
                         <div style="margin-top:50px;"><p><span id="fakinit-lobby-text" class="fakinit-text fakinit-text-instruction fakinit-category-color"></span></p></div>\r
-                        <button type="button" id="fakinit-sameplayers" class="fakinit-button btn btn-lg btn-block fakinit-endbuttons">SAME PLAYERS</button>\r
-                        <button type="button" id="fakinit-newplayers" class="fakinit-button btn btn-lg btn-block fakinit-endbuttons">NEW PLAYERS</button>   \r
+                        <button type="button" id="fakinit-sameplayers" class="fakinit-button btn btn-lg btn-block fakinit-endbuttons">GLEICHE SPIELER</button>\r
+                        <button type="button" id="fakinit-newplayers" class="fakinit-button btn btn-lg btn-block fakinit-endbuttons">ANDERE SPIELER</button>   \r
                     </form>\r
 \r
                     <div class="pure-u-1"></div>\r
                     \r
                     <form class="pure-form">\r
-                        <button type="button" id="fakinit-lobby-menu-censor" class="menu-button lobby-button fakinit-button button-xlarge pure-button pure-input-1">Censor Menu</button><br>\r
+                        <button type="button" id="fakinit-lobby-menu-censor" class="menu-button lobby-button fakinit-button button-xlarge pure-button pure-input-1">Zensur-Menü</button><br>\r
                     </form>\r
                 </div>\r
             </div>\r
@@ -21084,7 +21084,7 @@ const $x = Et.View.extend({
                     </p>\r
                 </div>\r
                 <div class='container fakinit-gameplay-sign fakinit-gameplay-ready'>\r
-                    <p class="fakinit-text"><span id="press-instruction" class="fakinit-text-instruction">Press READY below when ready</span></p>\r
+                    <p class="fakinit-text"><span id="press-instruction" class="fakinit-text-instruction">Drücke BEREIT, wenn du bereit bist</span></p>\r
                     <button class='fakinit-ready-button fakinit-button btn btn-lg btn-block button-send'>READY</button>\r
                 </div>\r
                 \r
@@ -21100,10 +21100,10 @@ const $x = Et.View.extend({
                     <div class="container">\r
                         <form class="form-inline">\r
                             <div class="form-group" id="fakinit-input-text">\r
-                                <input id='enteredText' value='' type='text' class='form-control fakinit-input input-lg' autocapitalize='off' autocorrect='off' autocomplete='off' maxlength='45' placeholder='enter text here'/>\r
+                                <input id='enteredText' value='' type='text' class='form-control fakinit-input input-lg' autocapitalize='off' autocorrect='off' autocomplete='off' maxlength='45' placeholder='Hier Text eingeben'/>\r
                                 <span id="fakinit-submit-alert" class="help-block fakinit-text fakinit-text-instruction" style="color:white;"></span>\r
                             </div>\r
-                            <button id="input-send" type="submit" class='fakinit-button btn button-input'>SEND</button>\r
+                            <button id="input-send" type="submit" class='fakinit-button btn button-input'>SENDEN</button>\r
                         </form>\r
                     </div>\r
                 </div>\r
@@ -21113,9 +21113,9 @@ const $x = Et.View.extend({
 \r
         <div class="state-skip-instructions pt-page-off fakinit-page">\r
             <!-- <div style="height:100%;display:flex;flex-direction:column;"> -->\r
-                <p><button class='fakinit-skip-button fakinit-button fakinit-button-secondary button-send'>SKIP</button></p>\r
+                <p><button class='fakinit-skip-button fakinit-button fakinit-button-secondary button-send'>ÜBERSPRINGEN</button></p>\r
                 <div class="fakinit-text fakinit-category-color">\r
-                    <p class="fakinit-text-instruction ">Press SKIP if everyone knows how to play</p>\r
+                    <p class="fakinit-text-instruction ">Drücke ÜBERSPRINGEN, wenn ihr wisst, wie man spielt</p>\r
                 </div>\r
                 <div class="fakinit-logo-image"></div>\r
             <!-- </div> -->\r
@@ -21123,7 +21123,7 @@ const $x = Et.View.extend({
 \r
         <div class="state-categories pt-page-off fakinit-page">\r
             <div id="fakinit-instruction-box-categories" class="fakinit-instruction-box">\r
-                <p id="category-title" class="fakinit-title fakinit-category-color">PICK A CATEGORY</p>\r
+                <p id="category-title" class="fakinit-title fakinit-category-color">WÄHLE EINE KATEGORIE</p>\r
                 <p><span id="category-text" class="fakinit-text fakinit-text-instruction fakinit-category-flavor">stuff stuff stuff stuff</span></p>\r
             </div>\r
             <div class="container">\r
@@ -21155,14 +21155,14 @@ const $x = Et.View.extend({
                 <p><span id='vote-text' class="fakinit-text fakinit-task fakinit-text-instruction">.fakinit-task</span></p>\r
             </div>\r
             <div id="fakinit-bar-vote" class="fakinit-bar fakinit-category-background-dark">\r
-                <span id="fakinit-title-vote" class="fakinit-title fakinit-text-instruction">Who's the Faker?</span>\r
+                <span id="fakinit-title-vote" class="fakinit-title fakinit-text-instruction">Wer ist der Schwindler?</span>\r
             </div>\r
             <div class="container">\r
                 <div class="">\r
                     <form id="fakinit-vote-form" class="pure-form"></form>\r
                     <button id="fakinit-vote" class='fakinit-vote-lock fakinit-button fakinit-button-lock button-input'>\r
                     </button>\r
-                    <p id="fakinit-vote-lock" class="fakinit-vote-lock"><span id="vote-lock-instruction" class="fakinit-text fakinit-text-instruction">LOCK IN VOTE</span></p>\r
+                    <p id="fakinit-vote-lock" class="fakinit-vote-lock"><span id="vote-lock-instruction" class="fakinit-text fakinit-text-instruction">EINLOGGEN</span></p>\r
                 </div>\r
             </div>\r
         </div>\r
@@ -21173,15 +21173,15 @@ const $x = Et.View.extend({
                 <span id="vote-locked-text" class="fakinit-text fakinit-task fakinit-text-instruction">.fakinit-task</span>\r
             </div>\r
             <div id="fakinit-bar-vote-locked" class="fakinit-bar fakinit-category-background-dark">\r
-                <span id="fakinit-title-vote-locked" class="fakinit-title fakinit-text-instruction">Who's the Faker?</span>\r
+                <span id="fakinit-title-vote-locked" class="fakinit-title fakinit-text-instruction">Wer ist der Schwindler?</span>\r
             </div>\r
             <div class="container">\r
                 <div>\r
-                    <button id='fakinit-locked-player' disabled type='button' class='fakinit-vote-button fakinit-button playername btn btn-block button-send selected'>PLAYER</button>\r
+                    <button id='fakinit-locked-player' disabled type='button' class='fakinit-vote-button fakinit-button playername btn btn-block button-send selected'>SPIELER</button>\r
                     <button id="fakinit-vote-locked" disabled class='fakinit-button fakinit-button-lock-invert button-input'>\r
                     </button>\r
-                    <p class="fakinit-text"><span id="vote-locked-instruction" class="fakinit-text fakinit-text-instruction">You've locked in your vote!</span></p>\r
-                    <p class="fakinit-text"><span id="vote-locked-waiting"class="fakinit-text fakinit-text-instruction">Waiting for other players</span></p>\r
+                    <p class="fakinit-text"><span id="vote-locked-instruction" class="fakinit-text fakinit-text-instruction">Du hast deine Antwort eingeloggt!</span></p>\r
+                    <p class="fakinit-text"><span id="vote-locked-waiting"class="fakinit-text fakinit-text-instruction">Warte auf die anderen Spieler</span></p>\r
                 </div>\r
             </div>\r
         </div>\r
@@ -21246,10 +21246,10 @@ const zx = lc.extend({
             this.hideLobbyButtons(), this.setCategory(null), this.showScreen(".state-lobby");
             const f = e.lobbyState;
             if (f !== "PostGame" && f !== "PostGameCountdown" && le(".fakinit-change-name-dialog").show(), !t.isAllowedToStartGame) {
-                le("#fakinit-lobby-text").html("Sit back and relax!"), this.showScreen(".state-lobby");
+                le("#fakinit-lobby-text").html("Lehne dich zurück und entspanne!"), this.showScreen(".state-lobby");
                 return
             }
-            f === "WaitingForMore" ? le("#fakinit-lobby-text").html("Waiting for all players to join") : f === "CanStart" ? (le("#fakinit-lobby-text").html("Press this button when everybody has joined"), le("#fakinit-startgame").show()) : f === "Countdown" || f === "PostGameCountdown" ? (le("#fakinit-lobby-text").html("Press this button to cancel game start"), le("#fakinit-stopcountdown").show()) : f === "PostGame" ? (le("#fakinit-lobby-text").html("What do you want to do?"), le(".fakinit-endbuttons").show()) : le("#fakinit-lobby-text").html("<br />Sit tight!<br>Waiting for the VIP to start")
+            f === "WaitingForMore" ? le("#fakinit-lobby-text").html("Warte, bis alle Spieler beigetreten sind") : f === "CanStart" ? (le("#fakinit-lobby-text").html("Drücke diesen Knopf, wenn alle bereit sind"), le("#fakinit-startgame").show()) : f === "Countdown" || f === "PostGameCountdown" ? (le("#fakinit-lobby-text").html("Drücke diesen Knopf, um den Spielstart abzubrechen"), le("#fakinit-stopcountdown").show()) : f === "PostGame" ? (le("#fakinit-lobby-text").html("Was möchtet ihr machen?"), le(".fakinit-endbuttons").show()) : le("#fakinit-lobby-text").html("<br />Warte kurz!<br>Der VIP muss das Spiel starten")
         } else if (i === "Gameplay_EndGame") this.showScreen(".state-nothing");
         else if (i === "Logo") this.setCategory(e.category), this.showScreen(".state-nothing");
         else if (i === "Instructions") n && n.split("_")[1] === "Skip" ? this.showScreen(".state-skip-instructions") : this.showScreen(".state-nothing");
@@ -21260,7 +21260,7 @@ const zx = lc.extend({
                     for (a = 0; a < t.categories.length; a++) f += `<button class='fakinit-category-button fakinit-button btn btn-block button-send cat-${a}' data-params='${t.categories[a].type}'>${t.categories[a].name}</button>`;
                     le("#fakinit-category-form").html(f), le(".fakinit-category-flavor").html(this.categoryFlavor[Math.floor(Math.random() * this.categoryFlavor.length)]), this.showScreen(".state-categories")
                 }
-            } else le("#notchoosing").html(`${e.choosingPlayerName} is picking a category`), this.showScreen(".state-notchoosing");
+            } else le("#notchoosing").html(`${e.choosingPlayerName} wählt eine Kategorie`), this.showScreen(".state-notchoosing");
         else if (i && i.split("_")[0] === "Gameplay") {
             const f = n.split("_")[1];
             f === "Input" && (e.category = "Text You Up"), this.setCategory(e.category), le(".fakinit-task").html(t.task), le(".fakinit-gameplay-sign").hide(), f === "Ready" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-ready").show()) : f === "Yield" ? this.showScreen(".state-gameplay") : f === "Go" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-go").show()) : f === "Stop" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-stop").show()) : f === "Input" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-input").show(), le("#enteredText").focus(), le("#enteredText").val("")) : f === "Waiting" ? this.showScreen(".state-nothing") : this.showScreen(".state-nothing")
@@ -21294,7 +21294,7 @@ const zx = lc.extend({
             e = t ? t.state : "";
         switch (t.state === "Gameplay_Input" && (t.category = "Text You Up"), this.setCategory(t.category), e) {
             case "Lobby":
-                this.hideLobbyButtons(), le("#fakinit-lobby-text").html("Sit tight!<br>Waiting for the VIP to start"), this.showScreen(".state-lobby");
+                this.hideLobbyButtons(), le("#fakinit-lobby-text").html("Warte kurz!<br>Der VIP muss das Spiel starten"), this.showScreen(".state-lobby");
                 break;
             case "Gameplay_Logo":
             case "Ready":
@@ -21302,7 +21302,7 @@ const zx = lc.extend({
                 this.showScreen(".state-nothing");
                 break;
             case "Gameplay_CategorySelection":
-                le("#notchoosing").html(`${t.choosingPlayerName} is picking a category`), this.showScreen(".state-notchoosing");
+                le("#notchoosing").html(`${t.choosingPlayerName} wählt eine Kategorie`), this.showScreen(".state-notchoosing");
                 break;
             case "Gameplay":
             case "Gameplay_Go":
@@ -21310,7 +21310,7 @@ const zx = lc.extend({
                 le(".fakinit-category").html(t.category), le(".fakinit-task").html(t.task), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
                 break;
             case "Gameplay_Input":
-                t.category = "Text You Up", le(".fakinit-category").html(t.category), le(".fakinit-task").html("Sit Tight!<br>Players are answering"), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
+                t.category = "Text You Up", le(".fakinit-category").html(t.category), le(".fakinit-task").html("Warte kurz!<br>Spieler antworten gerade"), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
                 break;
             case "Vote": {
                 le("#vote-text").html(t.task);
@@ -21363,7 +21363,7 @@ const zx = lc.extend({
     sendInput() {
         const t = this.sanitize(le("#enteredText").val()).toUpperCase(),
             e = le("#fakinit-submit-alert");
-        return e.hide(), t.length === 0 ? (e.html("You can't enter nothing!"), e.show(), !1) : (this.client.send("SendMessageToRoomOwner", {
+        return e.hide(), t.length === 0 ? (e.html("Du musst etwas eingeben!"), e.show(), !1) : (this.client.send("SendMessageToRoomOwner", {
             answer: !0,
             msg: t
         }), !1)
@@ -21396,7 +21396,7 @@ const zx = lc.extend({
         let t = le("#fakinitNameChange").val().toUpperCase();
         return t = t.substring(0, 12), t.length > 0 ? (le("#player-name").html(t), this.client.send("SendMessageToRoomOwner", {
             name: t
-        }), le(".fakinit-name-change-form").hide(), le(".fakinit-name-change-button").show()) : alert("You have to enter something!"), !1
+        }), le(".fakinit-name-change-form").hide(), le(".fakinit-name-change-button").show()) : alert("Du musst etwas eingeben!"), !1
     },
     newGameSamePlayers() {
         return this.client.send("SendMessageToRoomOwner", {
