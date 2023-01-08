@@ -26809,93 +26809,93 @@ ${t}`
         }
     });
     const yre = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Refresh Required",
-            PREFERRED: "PREFERRED BRANCH",
-            SELECT: "Select a Branch",
-            WAITING: "Waiting for Room"
+            LABEL: "ZWEIG",
+            REFRESH_REQUIRED: "Refresh ben\xF6tigt",
+            PREFERRED: "BEVORZUGTER ZWEIG",
+            SELECT: "W\xE4hle deinen Zweig aus",
+            WAITING: "Warte auf Raum"
         },
         Ere = {
-            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-            ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
-            AUDIENCE_IS_FULL: "The audience is full",
-            UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-            UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-            KICKED: "You cannot join because you have been kicked by a moderator",
-            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Error joining this game",
-            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+            UNSUPPORTED_BROWSER: "Dieses Spiel wird von diesem Browser nicht unterst\xFCtzt. Unter '?' und HILFE findest du eine vollst\xE4ndige Liste an kompatiblen Browsern.",
+            ROOM_IS_FULL: "Das Spiel ist voll",
+            ROOM_NOT_FOUND: "Raum wurde nicht gefunden.",
+            AUDIENCE_IS_FULL: "Das Publikum ist voll",
+            UNABLE_TO_CONNECT: "Es konnte keine Verbindung zum Server von Jackbox Games hergestellt werden. Dies wird h\xE4ufig durch Adblocker oder Privacy Extensions verursacht.",
+            UNABLE_TO_PRELOAD: "Preload dieses Bundles ist nicht m\xF6glich",
+            KICKED: "Du kannst nicht beitreten, weil du von einem Moderator gekickt wurdest",
+            REQUIRES_TWITCH_LOGIN: "F\xFCr diesen Spiel ist Twitch erforderlich",
+            ROOM_IS_LOCKED: "Spiel verschlossen",
+            INCORRECT_PASSWORD: "Falsches Passwort",
+            GENERIC: "Fehler beim Betreten des Spiels",
+            FILTER_NAME: "Der Familientauglichkeits-Filter des Spiels ist aktiviert. W\xE4hle einen anderen Namen."
         },
         bre = {
             NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME_PLACEHOLDER: "GIB DEINEN NAMEN EIN",
+            PASSWORD_PLACEHOLDER: "F\xDCNFSTELLIGES PASSWORT EINGEBEN",
+            PASSWORD_REQUIRED_TITLE: "Passwort ben\xF6tigt",
+            PASSWORD_REQUIRED_BODY: "Bitte gib das Passwort ein oder setze dich ins Publikum",
+            PASSWORD_JOIN_AS_PLAYER: "Als Spieler beitreten",
+            PASSWORD_JOIN_AS_AUDIENCE: "Ins Publikum setzen",
+            ROOM_CODE: "RAUMCODE",
+            ROOM_CODE_PLACEHOLDER: "GIB DEN 4-STELLIGEN CODE EIN"
         },
-        Tre = "Link to Jackbox Games Homepage",
+        Tre = "Link zur Homepage von Jackbox Games",
         Sre = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "ANSICHT",
+            DARK: "Dunkel",
+            HELP: "HILFE",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
+            LIGHT: "Hell",
+            LOGOUT: "ABMELDEN",
             MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
-            MAILING_LIST: "MAILING LIST",
+            PAST_GAMES: "ANDERE SPIELE",
+            MAILING_LIST: "MAILINGLISTE",
             MODERATOR: "MODERATOR"
         },
         Ore = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "SPIEL UND SHOP ANSEHEN",
+                VIEW: "DIESES SPIEL ANSEHEN"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "NEU",
+            PLAYED_ON: "GESPIELT AM",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Bist du sicher?",
+                DESCRIPTION: `Dies wird das Spiel dauerhaft aus der Liste
+deiner bisherigen Spiele entfernen.`,
+                MANAGE: "Spiel entfernen?",
+                TITLE: "Bist du sicher?"
             }
         },
         Are = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Noch keine bisherigen Spiele",
+            MANAGE: "VERWALTEN",
+            TITLE: "DEINE BISHERIGEN SPIELE"
         },
         wre = {
-            TITLE: "RECENT GAMES",
+            TITLE: "AKTUELLE SPIELE",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "ALLE ANSEHEN",
+                LINK: "ALLE BISHERIGEN SPIELE ANSEHEN"
             }
         },
         Ire = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Spiel ist voll",
+            GAME_STARTED: "Spiel hat bereits begonnen",
+            ROOM_NOT_FOUND: "Raum wurde nicht gefunden."
         },
         Cre = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "SPIEL IST VOLL",
+            GAME_STARTED: "SPIEL HAT BEREITS BEGONNEN",
+            JOIN_AUDIENCE: "INS PUBLIKUM SETZEN",
+            RECONNECT: "NEU VERBINDEN",
+            TWITCH_LOGIN: "MIT TWITCH ANMELDEN"
         },
         Rre = {
-            CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]ACHTUNG:[/b] Es wurde keine Kamera erkannt, aber du kannst das Spiel auch ohne Foto spielen. Falls eine Kamera vorhanden ist, probiere es mit einem anderen Browser.",
+            STYLE: "[b]ACHTUNG:[/b] Dein Browser scheint etwas veraltet zu sein. Es k\xF6nnte Probleme bei der Anzeige dieses Spiels geben.",
+            TOS: "Wenn du auf {submit} klickst, erkl\xE4rst du dich mit unseren [tos]Nutzungsbedingungen[/tos] einverstanden"
         },
         Nre = {
             BRANCH: yre,
