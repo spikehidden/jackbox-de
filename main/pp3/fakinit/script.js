@@ -21085,7 +21085,7 @@ const $x = Et.View.extend({
                 </div>\r
                 <div class='container fakinit-gameplay-sign fakinit-gameplay-ready'>\r
                     <p class="fakinit-text"><span id="press-instruction" class="fakinit-text-instruction">Drücke BEREIT, wenn du bereit bist</span></p>\r
-                    <button class='fakinit-ready-button fakinit-button btn btn-lg btn-block button-send'>READY</button>\r
+                    <button class='fakinit-ready-button fakinit-button btn btn-lg btn-block button-send'>BEREIT</button>\r
                 </div>\r
                 \r
                 <div class='fakinit-gameplay-sign fakinit-gameplay-yield'>\r
@@ -21330,7 +21330,7 @@ const zx = lc.extend({
     setCategory(t) {
         if (le(".fakinit-category-background").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), le(".fakinit-category-background-dark").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), le(".fakinit-category-color").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), t) {
             le(".fakinit-category").html(t);
-            const e = t.replace(/\s/g, "").toLowerCase();
+            const e = t.replace(/\s/g, "").toLowerCase().replace("Hände der Wahrheit", "handsoftruth").replace("Ins Gesicht geschrieben", "facevalue").replace("Gut gezeigt", "yougottapoint").replace("Zahlen, bitte!", "numberpressure").replace("Textet euch voll", "textyouup");
             le(".fakinit-category-background").addClass(e), le(".fakinit-category-background-dark").addClass(e), le(".fakinit-category-color").addClass(e)
         }
     },
