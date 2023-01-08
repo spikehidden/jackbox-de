@@ -21330,7 +21330,17 @@ const zx = lc.extend({
     setCategory(t) {
         if (le(".fakinit-category-background").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), le(".fakinit-category-background-dark").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), le(".fakinit-category-color").removeClass("handsoftruth").removeClass("makingnoises").removeClass("facevalue").removeClass("yougottapoint").removeClass("numberpressure").removeClass("textyouup"), t) {
             le(".fakinit-category").html(t);
-            const e = t.replace(/\s/g, "").toLowerCase().replace("Hände der Wahrheit", "handsoftruth").replace("Ins Gesicht geschrieben", "facevalue").replace("Gut gezeigt", "yougottapoint").replace("Zahlen, bitte!", "numberpressure").replace("Textet euch voll", "textyouup");
+            const categoryMap = new Map([
+                ["Hände der Wahrheit", "Hands of Truth"],
+                ["Gut gezeigt", "You Gotta Point"],
+                ["Ins Gesicht geschrieben", "Face Value"],
+                ["Zahlen, bitte!", "Number Pressure"],
+                ["Textet euch voll", "Text You Up"]
+            ]);
+            // only use the map if the category is there;
+            // "Text You Up" is manually set many times in
+            // this code, so it's accounted for below
+            const e = (categoryMap.has(t) ? categoryMap.get(t) : t).replace(/\s/g, "").toLowerCase();
             le(".fakinit-category-background").addClass(e), le(".fakinit-category-background-dark").addClass(e), le(".fakinit-category-color").addClass(e)
         }
     },
