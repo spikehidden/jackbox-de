@@ -21194,7 +21194,7 @@ const zx = lc.extend({
     prevRoomState: "",
     prevPlayerState: "",
     doneAnswering: !1,
-    categoryFlavor: ["it's fun", "do it", "we believe in you", "it's easy", "don't make everyone wait", "this is the easy part", "pretty please?", "it's important", "you can do it", "you have the power", "choose wisely", "it's your time to shine", "quickly", "be smart about it", "enjoy it", "it's your turn", "it's your duty"],
+    categoryFlavor: ["es macht spaß", "mach schon", "wir glauben an dich", "kinderleicht", "lass die anderen nicht warten", "das ist der einfache teil", "ganz lieb bitte?", "es ist wichtig", "du schaffst das", "du kannst das", "wähle weise", "das ist dein moment", "schnell", "mach dir keinen kopf", "hab spaß dabei", "du bist dran", "du packst das"],
     events: {
         "click #fakinit-startgame": "startGame",
         "click #fakinit-stopcountdown": "stopCountdown",
