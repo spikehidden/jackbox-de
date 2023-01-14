@@ -16521,7 +16521,7 @@ const Rk = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         defaults: {
             state: "EnterSingleText",
             actions: [{
-                text: "submit",
+                text: "senden",
                 action: "submit"
             }],
             allowEmpty: !1,
