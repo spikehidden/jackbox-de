@@ -32586,7 +32586,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }, [e.player.round === "one" ? (J(), ie("img", Lle)) : Re("", !0), e.player.round === "two" ? (J(), ie("img", xle)) : Re("", !0), e.player.round === "three" ? (J(), ie("img", Nle)) : Re("", !0)], 2)]),
             _: 1
         })])) : (J(), ie("div", kle, [Me(s, {
-            username: e.info ? e.info.name : "AUDIENCE",
+            username: e.info ? e.info.name : "PUBLIKUM",
             color: e.info ? e.info.color : null
         }, null, 8, ["username", "color"]), V("button", {
             class: "briefcase look",
