@@ -21263,9 +21263,9 @@ const zx = lc.extend({
             } else le("#notchoosing").html(`${e.choosingPlayerName} wählt eine Kategorie`), this.showScreen(".state-notchoosing");
         else if (i && i.split("_")[0] === "Gameplay") {
             const f = n.split("_")[1];
-            f === "Input" && (e.category = "Text You Up"), this.setCategory(e.category), le(".fakinit-task").html(t.task), le(".fakinit-gameplay-sign").hide(), f === "Ready" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-ready").show()) : f === "Yield" ? this.showScreen(".state-gameplay") : f === "Go" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-go").show()) : f === "Stop" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-stop").show()) : f === "Input" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-input").show(), le("#enteredText").focus(), le("#enteredText").val("")) : f === "Waiting" ? this.showScreen(".state-nothing") : this.showScreen(".state-nothing")
+            f === "Input" && (e.category = "Textet euch voll"), this.setCategory(e.category), le(".fakinit-task").html(t.task), le(".fakinit-gameplay-sign").hide(), f === "Ready" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-ready").show()) : f === "Yield" ? this.showScreen(".state-gameplay") : f === "Go" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-go").show()) : f === "Stop" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-stop").show()) : f === "Input" ? (this.showScreen(".state-gameplay"), le(".fakinit-gameplay-input").show(), le("#enteredText").focus(), le("#enteredText").val("")) : f === "Waiting" ? this.showScreen(".state-nothing") : this.showScreen(".state-nothing")
         } else if (i === "Vote") {
-            if (n.split("_")[1] === "Input" && (e.category = "Text You Up"), this.setCategory(e.category), le(".fakinit-task").html(t.task), !t.canCensor && n === "VoteLocked") {
+            if (n.split("_")[1] === "Input" && (e.category = "Textet euch voll"), this.setCategory(e.category), le(".fakinit-task").html(t.task), !t.canCensor && n === "VoteLocked") {
                 for (le("#vote-locked-text").html(e.task), a = 0; a < t.players.length; a++) {
                     const v = t.players[a];
                     t.vote !== void 0 && t.vote === v.index && le("#fakinit-locked-player").html(v.name)
@@ -21292,7 +21292,7 @@ const zx = lc.extend({
     updateAudience() {
         const t = this.model.get("room"),
             e = t ? t.state : "";
-        switch (t.state === "Gameplay_Input" && (t.category = "Text You Up"), this.setCategory(t.category), e) {
+        switch (t.state === "Gameplay_Input" && (t.category = "Textet euch voll"), this.setCategory(t.category), e) {
             case "Lobby":
                 this.hideLobbyButtons(), le("#fakinit-lobby-text").html("Warte kurz!<br>Der VIP muss das Spiel starten"), this.showScreen(".state-lobby");
                 break;
@@ -21310,7 +21310,7 @@ const zx = lc.extend({
                 le(".fakinit-category").html(t.category), le(".fakinit-task").html(t.task), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
                 break;
             case "Gameplay_Input":
-                t.category = "Text You Up", le(".fakinit-category").html(t.category), le(".fakinit-task").html("Warte kurz!<br>Spieler antworten gerade"), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
+                t.category = "Textet euch voll", le(".fakinit-category").html(t.category), le(".fakinit-task").html("Warte kurz!<br>Spieler antworten gerade"), le(".fakinit-gameplay-sign").hide(), this.showScreen(".state-gameplay");
                 break;
             case "Vote": {
                 le("#vote-text").html(t.task);
