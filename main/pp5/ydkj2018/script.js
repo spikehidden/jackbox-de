@@ -21358,8 +21358,8 @@ const JC = ["Zimtrolle", "Muttis Kind", "Boingo", "Spritzgebäck", "Hochstapler"
                 allowOutsideClick: !1,
                 text: t.activeScrew.behaviorData.text,
                 showCancelButton: !0,
-                confirmButtonText: "Yes",
-                cancelButtonText: "No"
+                confirmButtonText: "Ja",
+                cancelButtonText: "Nein"
             }).then(i => {
                 const a = i.value === !0;
                 this.client.isRole("player") && this.onChildviewClientMessage({
