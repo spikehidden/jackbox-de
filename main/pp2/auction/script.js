@@ -21228,7 +21228,7 @@ const Xx = cc.extend({
                 return
             }
             if (this.hideLobbyButtons(), !e.isAllowedToStartGame) {
-                _e("#auction-lobby-text").html("sit back and relax!"), this.showScreen("#state-lobby");
+                _e("#auction-lobby-text").html("Lehne dich zurück und entspanne!"), this.showScreen("#state-lobby");
                 return
             }
             const m = t.lobbyState;
