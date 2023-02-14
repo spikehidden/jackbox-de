@@ -21262,13 +21262,13 @@ const Xx = cc.extend({
                     if (t.screwingPlayerId === this.client.userId)
                         for (f = 0; f < t.playersToScrew.length; f++) R += `<button type="button" data-player="${t.playersToScrew[f].id}" class="pure-input-1 button-large pure-button button-auction auction-screw-player-button">${t.playersToScrew[f].name}</button>`;
                     else R = "<span class='big-text'><p>Halte dich zurück, ein anderer Spieler nagelt bereits</p></span>";
-                else t.bids && (R = `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-screw-button"${V?"":" disabled"}>SCREW</button>`)
+                else t.bids && (R = `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-screw-button"${V?"":" disabled"}>NAGELN</button>`)
             } else R = "";
             _e("#auction-screw-content").html(R);
             let D = "";
             if (t.playerSignalledForBank !== void 0) {
                 let V, X;
-                t.playerSignalledForBank ? (V = !0, X = "BANK ANGERUFEN") : e.numLoans >= 3 ? (V = !0, X = "SCHLECHTE BEDINGUNGEN") : e.timesOpenedBank >= 3 ? (V = !0, X = "ANRUF BEENDEN") : (V = !1, X = "DIE BANK ANRUFEN"), D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-open-bank-button"${V?" disabled":""}>${X}</button><br>`
+                t.playerSignalledForBank ? (V = !0, X = "BANK ANGERUFEN") : e.numLoans >= 3 ? (V = !0, X = "NICHT KREDITWÜRDIG") : e.timesOpenedBank >= 3 ? (V = !0, X = "ANRUF BEENDEN") : (V = !1, X = "DIE BANK ANRUFEN"), D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-open-bank-button"${V?" disabled":""}>${X}</button><br>`
             } else t.loanAmount !== void 0 && t.debtAmount !== void 0 && e.hasTakenOutLoanInCurrentBank !== void 0 && (e.numLoans >= 3 ? D += `<span class="big-text"><p>Du hast schon drei Kredite! Das reicht!</p></span>` : (D += `<span class="big-text"><p>Du erhältst: ${this.formatMoney(t.loanAmount)}, und schuldest ${this.formatMoney(t.debtAmount)}</p></span>`, D += `<button type="button" class="pure-input-1 button-large pure-button button-auction auction-take-loan-button"${e.hasTakenOutLoanInCurrentBank?" disabled":""}>KREDIT NEHMEN</button><br>`));
             _e("#auction-bank-content").html(D), this.showScreen("#state-auction")
         } else if (i && i === "PostGame") {
