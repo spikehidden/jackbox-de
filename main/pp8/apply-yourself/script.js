@@ -32402,10 +32402,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, 8, ["list", "disabled"])])), V("div", ole, [V("button", {
             class: "shuffle control",
             onClick: t[0] || (t[0] = h => e.showShuffled ? e.showShuffled = !1 : e.shuffleStash())
-        }, $e(e.showShuffled ? "Show Original" : "Shuffle"), 1), V("button", {
+        }, $e(e.showShuffled ? "Original anzeigen" : "Mischen"), 1), V("button", {
             class: "unshuffle control",
             onClick: t[1] || (t[1] = h => e.showSorted ? e.showSorted = !1 : e.sortStash())
-        }, $e(e.showSorted ? "Show Original" : "Sort"), 1)])], 6), Me(ki, {
+        }, $e(e.showSorted ? "Original anzeigen" : "Sortieren"), 1)])], 6), Me(ki, {
             name: "clipboard",
             appear: ""
         }, {

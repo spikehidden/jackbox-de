@@ -27083,7 +27083,7 @@ ${t}`
                 },
                 audienceInfo() {
                     return {
-                        name: "audience"
+                        name: "publikum"
                     }
                 },
                 screen() {
