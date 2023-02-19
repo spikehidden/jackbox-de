@@ -16616,7 +16616,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }), this.inputComponent = this.inputComponent || new Ia({
                 model: new He.Model({})
             }), this.buttonsCollection = this.buttonsCollection || new He.Collection([{
-                text: "Senden"
+                text: "submit"
             }]), this.buttonsComponent = this.buttonsComponent || new tr({
                 block: !0,
                 collection: this.buttonsCollection
