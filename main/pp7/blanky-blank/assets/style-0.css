@@ -24018,7 +24018,7 @@ button {
 }
 
 .blanky-blank .MakeSingleChoice .button-group.easy .button:after {
-    content: "EASY";
+    content: "EINFACH";
     width: 150px;
     background: #31d171;
     position: absolute;
@@ -24027,7 +24027,7 @@ button {
     text-align: center;
     font-size: 7vw;
     line-height: 7vw;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     color: #000;
     transform: rotate(35deg);
     -webkit-transform: rotate(35deg)
