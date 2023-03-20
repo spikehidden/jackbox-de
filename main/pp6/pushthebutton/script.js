@@ -21070,7 +21070,7 @@ const jx = rt.View.extend({
     </div>
     <div id="playericon" class="playerIcon"></div>
     <div id="playername" class="playerName controller-text glitchable glitch-header"></div>
-    <div class="captain-indicator off glitchable glitch-text">CAPTAIN</div>
+    <div class="captain-indicator off glitchable glitch-text">KAPITÄN</div>
 </div>
 `,
     zx = Na.extend({
@@ -21097,11 +21097,11 @@ const jx = rt.View.extend({
 </div>
 
 <div class="the-button">
-    <button class="the-button-circle circle glitchable glitch-button">THE<br />BUTTON</button>
+    <button class="the-button-circle circle glitchable glitch-button">DER<br />KNOPF</button>
 </div>
 
 <div class="hurry-button">
-    <button class="hurry-button-circle circle glitchable glitch-hurry">HURRY!</button>
+    <button class="hurry-button-circle circle glitchable glitch-hurry">SCHNELLER!</button>
 </div>`,
     Ux = rt.View.extend({
         tagName: "div",
@@ -21583,12 +21583,12 @@ const jx = rt.View.extend({
                 <polygon class="inner-3" points="34.4,57.8 20.5,57.8 13.5,69.8 20.5,81.9 34.4,81.9 41.3,69.8"/>
                 <polygon class="outer-3" points="39.1,49.6 15.8,49.6 4.1,69.8 15.8,90 39.1,90 50.7,69.8"/>
             </svg>
-            <p class="title in">Bioscan Report</p>
-            <p class="prompt in">It is up to you to decide what to do with this information.</p>
+            <p class="title in">Bioscan Bericht</p>
+            <p class="prompt in">Du entscheidest, was du mit dieser Info anstellen möchtest.</p>
             <p class="result in">
-                <span class="username"></span> is <span class="role"></span>
+                <span class="username"></span> ist ein <span class="role"></span>
             </p>
-            <p class="help in">NOTICE: Aliens may want to consider lying.</p>
+            <p class="help in">HINWEIS: Aliens könnten eventuell lügen.</p>
         </div>
     </div>
 </div>`,
