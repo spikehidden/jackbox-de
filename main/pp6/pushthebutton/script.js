@@ -21101,7 +21101,7 @@ const jx = rt.View.extend({
 </div>
 
 <div class="hurry-button">
-    <button class="hurry-button-circle circle glitchable glitch-hurry">SCHNELLER!</button>
+    <button class="hurry-button-circle circle glitchable glitch-hurry">SCHNELL!</button>
 </div>`,
     Ux = rt.View.extend({
         tagName: "div",
@@ -22271,7 +22271,7 @@ const jx = rt.View.extend({
                     },
                     human: {
                         observe: "winningRole",
-                        onGet: t => t === "Human"
+                        onGet: t => t === "Mensch"
                     }
                 }
             }
