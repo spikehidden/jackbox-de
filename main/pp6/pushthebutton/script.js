@@ -13159,7 +13159,7 @@ const vC = `<form>\r
         <div class="inputGroup">\r
             <textarea id="input-text-textarea" rows="1" class="form-control jbg-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>\r
             <span class="inlineSubmit">\r
-                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Send</span></button>\r
+                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Senden</span></button>\r
             </span>\r
             <span id="helpBlock2" class="help-block errorText"></span>\r
             <div class="charCountDisplay"><span class="charRemaining">70</span></div>\r
@@ -16281,7 +16281,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
             <div id="submit">\r
-                <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
+                <button id='submitdrawing' class="button submitDrawing">Absenden</button><br/>\r
             </div>\r
             <button id='censorOptions' class='button'>Censor Options</button>\r
             <div class="footer"></div>\r
@@ -16317,9 +16317,9 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             disabled: !1,
             debug: !1,
             strings: {
-                drawing_empty: "You must draw something!",
+                drawing_empty: "Du musst etwas zeichnen!",
                 submit: "submit",
-                ERROR_REJECTED_OBJECT: "That's not allowed, enter something else!"
+                ERROR_REJECTED_OBJECT: "Das ist nicht erlaubt! Gib etwas anderes ein!"
             }
         }
     }),
@@ -16361,7 +16361,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
                 visible: !0,
                 updateView: !0,
                 onGet(t) {
-                    return t[0] || t[1] ? !1 : t[2] === void 0 ? "" : t[2].submit || "Submit"
+                    return t[0] || t[1] ? !1 : t[2] === void 0 ? "" : t[2].submit || "Senden"
                 }
             }
         },
@@ -16521,7 +16521,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         defaults: {
             state: "EnterSingleText",
             actions: [{
-                text: "submit",
+                text: "Senden",
                 action: "submit"
             }],
             allowEmpty: !1,
@@ -16538,11 +16538,11 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             autocapitalize: !1,
             className: "",
             inlineSubmit: !1,
-            inlineSubmitText: "Submit",
+            inlineSubmitText: "Senden",
             error: "",
             strings: {
-                ERROR_NOTHING_ENTERED: "You need to enter something!",
-                ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                ERROR_NOTHING_ENTERED: "Du musst etwas eingeben!",
+                ERROR_REJECTED_TEXT: "Das ist nicht erlaubt, gib etwas anderes ein! (Du kannst die Moderationseinstellungen in den Optionen anpassen)"
             }
         }
     }),
@@ -16612,7 +16612,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }), this.inputComponent = this.inputComponent || new ro({
                 model: new Ue.Model({})
             }), this.buttonsCollection = this.buttonsCollection || new Ue.Collection([{
-                text: "submit"
+                text: "Senden"
             }]), this.buttonsComponent = this.buttonsComponent || new Vn({
                 block: !0,
                 collection: this.buttonsCollection
@@ -16625,7 +16625,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             })), this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.inputComponent.model.set(this.model.attributes), this.buttonsComponent.options.block = this.model.get("block"), this.buttonsCollection.set(this.model.get("actions") || [{
-                text: "submit",
+                text: "Senden",
                 action: "submit"
             }]), this.model.get("entryId") && this.model.get("entryId") !== this.currentEntry && (this.inputComponent.clearInput(), this.currentEntry = this.model.get("entryId")), this.$el.find(".enterSingleTextFieldset").prop("disabled", !1), this.$el.find("textarea").focus(), this.stickit(), this.model.get("autoSubmit") && this.shouldSubmit && this.onChildviewInputSubmit()
         },
@@ -17201,7 +17201,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
                         preventAutosize: !0,
                         placeholder: "???-????",
                         inlineSubmit: !0,
-                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SUBMIT",
+                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SENDEN",
                         className: "lobbyUgcInput"
                     }), a.collection.add({
                         type: "text",
@@ -17556,7 +17556,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
             this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), this.model.get("type") === "multiple" && Be.all(this.model.get("choices"), t => !t.disabled) && this.choicesList.collection.push({
-                text: "Submit",
+                text: "Senden",
                 action: "submit",
                 block: !1
             }), this.model.get("isAudience") && ((this.model.get("choiceId") === void 0 || this.model.get("choiceId") !== this.getOption("choiceId")) && (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && (this.model.get("type") === "multiple" ? this.choicesList.children.forEach(t => {
@@ -21293,7 +21293,7 @@ const jx = rt.View.extend({
     Yx = Pa.extend({
         initialize(t) {
             this.buttonsCollection = new Ue.Collection([{
-                text: "submit"
+                text: "Senden"
             }]), this.buttonsComponent = new Vn({
                 childView: bl,
                 block: !0,
@@ -21896,7 +21896,7 @@ const jx = rt.View.extend({
         idAttribute: "username",
         responsesText() {
             const t = this.get("responses");
-            return t ? t.length === 1 ? "Tested 1 time" : `Tested ${t.length} times` : ""
+            return t ? t.length === 1 ? "1 Mal getestet" : `${t.length} Mal getestet` : ""
         },
         captainTimeText() {
             const t = this.get("durationAsCaptain");
