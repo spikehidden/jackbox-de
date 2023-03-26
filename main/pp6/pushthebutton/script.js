@@ -22111,7 +22111,7 @@ const jx = rt.View.extend({
             ".count": {
                 observe: "responses",
                 onGet(t) {
-                    return t ? `${this.model.responsesText()} | ${this.model.captainTimeText()} Captain Time` : ""
+                    return t ? `${this.model.responsesText()} | ${this.model.captainTimeText()} als Kapitän` : ""
                 }
             },
             ".hack-button": {
@@ -22271,7 +22271,7 @@ const jx = rt.View.extend({
                     },
                     human: {
                         observe: "winningRole",
-                        onGet: t => t === "Mensch"
+                        onGet: t => t === "Human"
                     }
                 }
             }
