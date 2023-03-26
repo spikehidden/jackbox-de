@@ -13760,7 +13760,7 @@ var tae = M$((nae, nI) => {
             directory: "pp6/ridictionary",
             categoryId: "RidictionaryGame"
         }, {
-            name: "Push the Button",
+            name: "Drück den Knopf",
             tag: "pushthebutton",
             wrapper: "marionette",
             isPublic: !0,
