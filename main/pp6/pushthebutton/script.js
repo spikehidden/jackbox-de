@@ -16318,7 +16318,7 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             debug: !1,
             strings: {
                 drawing_empty: "Du musst etwas zeichnen!",
-                submit: "submit",
+                submit: "senden",
                 ERROR_REJECTED_OBJECT: "Das ist nicht erlaubt! Gib etwas anderes ein!"
             }
         }
