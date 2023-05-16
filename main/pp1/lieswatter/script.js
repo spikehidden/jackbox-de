@@ -21033,9 +21033,9 @@ const $x = Et.View.extend({
 				<h3 id="lieswatter-lobby-text" class="lobby-text"></h3>
 
 				<form class="pure-form lobby-form">
-					<button type="submit" id="lieswatter-startgame" class="button-lieswatter button-xlarge pure-button pure-input-1" data-ans="1">EVERYBODY'S IN</button>
-					<button type="button" id="lieswatter-sameplayers" class="button-lieswatter button-xlarge pure-button pure-input-1 lieswatter-endbuttons" data-ans="1">SAME PLAYERS</button>
-					<button type="button" id="lieswatter-newplayers" class="button-lieswatter button-xlarge pure-button pure-input-1 lieswatter-endbuttons" data-ans="0">NEW PLAYERS</button>	
+					<button type="submit" id="lieswatter-startgame" class="button-lieswatter button-xlarge pure-button pure-input-1" data-ans="1">ALLE BEREIT</button>
+					<button type="button" id="lieswatter-sameplayers" class="button-lieswatter button-xlarge pure-button pure-input-1 lieswatter-endbuttons" data-ans="1">GLEICHE SPIELER</button>
+					<button type="button" id="lieswatter-newplayers" class="button-lieswatter button-xlarge pure-button pure-input-1 lieswatter-endbuttons" data-ans="0">ANDERE SPIELER</button>	
 				</form>
 			</div>
 		</div>
@@ -21048,15 +21048,15 @@ const $x = Et.View.extend({
 					<table style="margin-left:auto; margin-right:auto;">
 					<tr>
 						<td style="padding:10px; width=80px;">
-							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>RANK</span><br /></div>
+							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>RANG</span><br /></div>
 							<div style="text-align:center;"><span id="lieswatter-rank" class="ls-rank-button">0</span></div>
 						</td>
 						<td style="padding:10px; width=160px;">
-							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>SCORE</span><br /></div>
+							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>PUNKTE</span><br /></div>
 							<div style="text-align:center;"><span id="lieswatter-score" class="ls-score-button">0</span></div>
 						</td>
 						<td style="padding:10px; width=80px;">
-							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>STREAK</span><br /></div>
+							<div style="text-align:center; font-family:'Ubuntu', sans-serif; color:white;"><span>SERIE</span><br /></div>
 							<div style="text-align:center";><span id="lieswatter-combo" class="ls-rank-button">0</span></div>
 						</td>
 					</tr>
@@ -21064,7 +21064,7 @@ const $x = Et.View.extend({
 				</div>
 				
 				<div id="lieswatter-statement-container" class="centered">
-					<br/><span id="lieswatter-category" class="ls-category"></span><br /><span id="lieswatter-statement">WAITING FOR GAME TO START</span><br /><br />
+					<br/><span id="lieswatter-category" class="ls-category"></span><br /><span id="lieswatter-statement">WARTE AUF DEN SPIELSTART</span><br /><br />
 				</div>
 
 				<div id="lieswatter-true-container" class="centered">
@@ -21078,7 +21078,7 @@ const $x = Et.View.extend({
 		</div>
 
 		<div class="pt-page-off state-nothing lieswatter-page" style="background:#515151;" >
-			<br /><span>ANSWER ENTERED!<br /><br />WAITING FOR OTHER PLAYERS.</span><br />
+			<br /><span>ANTWORT ABGEGEBEN!<br /><br />WARTE AUF ANDERE SPIELER.</span><br />
 		</div>
 	</div>
 </div>
@@ -21106,7 +21106,7 @@ const zx = VC.extend({
         else if (i && i.split("_")[0] === "Lobby") {
             this.allowSendAnswer = !0, this.hideLobbyButtons();
             const a = i.split("_")[1];
-            a === "CanStart" ? (ye("#lieswatter-lobby-text").html("Press this button when everybody has joined"), ye("#lieswatter-startgame").show()) : a === "PostGame" && (ye("#lieswatter-lobby-text").html("What do you want to do?"), ye(".lieswatter-endbuttons").show()), this.showScreen(".state-lobby")
+            a === "CanStart" ? (ye("#lieswatter-lobby-text").html("Drücke diesen Knopf, wenn alle bereit sind"), ye("#lieswatter-startgame").show()) : a === "PostGame" && (ye("#lieswatter-lobby-text").html("Was möchtet ihr jetzt machen?"), ye(".lieswatter-endbuttons").show()), this.showScreen(".state-lobby")
         } else if (i === "Gameplay_Round" && n === i) {
             if (t.score === void 0) return;
             ye("#lieswatter-score").html(t.score.score), ye("#lieswatter-combo").html(t.score.combo), Number(t.score.place) >= 0 ? ye("#lieswatter-rank").html(t.score.place + 1) : ye("#lieswatter-rank").html("-"), t.statement !== void 0 && t.statement.text !== void 0 && (ye("#lieswatter-category").html(t.statement.category), ye("#lieswatter-statement").html(t.statement.text)), t.answer !== void 0 && t.answer >= 0 || t.statement && t.statement.text === this.lastQuestion ? (this.showScreen(".state-nothing"), this.lastQuestion = t.statement.text) : (this.allowSendAnswer = !0, this.showScreen(".state-answer"))
