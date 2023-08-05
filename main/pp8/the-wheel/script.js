@@ -33088,8 +33088,8 @@ ${e}`
                     isSending: !1,
                     hasSent: !1,
                     eggNames: {
-                        pizza: ["FORSETI_MAXI", "FORSETI", "SCHWEIGER", "ERIZZLE", "BLACKSHEEP273", "BLACKSHEEP27", "BLACKSHEEP"],
-                        loser: ["REDACTED", "LOSER", "[REDACTED]"],
+                        pizza: ["PIZZA"],
+                        loser: ["REDACTED", "LOSER", "[REDACTED]", "ZENSIERT", "FORSETI", "FORSETI_MAXI", "ERIZZLE", "BLACKSHEEP"],
                         tiny: ["TINY"]
                     },
                     sliceManager: new d4(this.player.slices, this.player.category, this.info, this.players),
