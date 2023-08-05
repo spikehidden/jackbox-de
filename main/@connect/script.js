@@ -26823,7 +26823,7 @@ ${t}`
             UNABLE_TO_CONNECT: "Es konnte keine Verbindung zum Server von Jackbox Games hergestellt werden. Dies wird h\xE4ufig durch Adblocker oder Privacy Extensions verursacht.",
             UNABLE_TO_PRELOAD: "Preload dieses Bundles ist nicht m\xF6glich",
             KICKED: "Du kannst nicht beitreten, weil du von einem Moderator gekickt wurdest",
-            REQUIRES_TWITCH_LOGIN: "F\xFCr diesen Spiel ist Twitch erforderlich",
+            REQUIRES_TWITCH_LOGIN: "F\xFCr dieses Spiel ist Twitch erforderlich",
             ROOM_IS_LOCKED: "Spiel verschlossen",
             INCORRECT_PASSWORD: "Falsches Passwort",
             GENERIC: "Fehler beim Betreten des Spiels",
