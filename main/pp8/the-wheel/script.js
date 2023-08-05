@@ -33088,7 +33088,7 @@ ${e}`
                     isSending: !1,
                     hasSent: !1,
                     eggNames: {
-                        pizza: ["PIZZA", "LEONARDO", "RAPHAEL", "DONATELLO", "MICHELANGELO"],
+                        pizza: ["FORSETI_MAXI", "FORSETI", "SCHWEIGER", "ERIZZLE", "BLACKSHEEP273", "BLACKSHEEP27", "BLACKSHEEP"],
                         loser: ["REDACTED", "LOSER", "[REDACTED]"],
                         tiny: ["TINY"]
                     },
