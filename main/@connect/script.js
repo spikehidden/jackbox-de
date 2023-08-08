@@ -15447,7 +15447,7 @@ ${r.message}`,
             if (!xe.isSupported) return;
             const t = OA();
             xe.set("twitchState", t);
-            const r = "32ghgheygev2ibgh1tiizcphlt8ll3";
+            const r = "qdmqw6vo6f4qeihcwobkeupakhmfeq";
             let n = `https://${window.location.hostname}`;
             window.location.hostname === "localhost" && (n = "http://localhost:9090/");
             let s = "https://id.twitch.tv/oauth2/authorize";
